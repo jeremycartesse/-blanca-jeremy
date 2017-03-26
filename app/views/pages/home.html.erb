@@ -29,18 +29,79 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="container-fluid">
+<!-- countdown starting -->
+<div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="hovercontainer">
-        <div class=" responsive img-responsive " >
-          <%= image_tag "photo2.jpg",  alt: "ceremony"%>
-          <div class="hovercontent">
-            <h3><%= t('title_ceremony') %></h3>
-            <h6><%= t('text_ceremomy') %></h6>
-          </div>
-        </div>
-      </div>
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <ul style="list-style: none; float: left; padding-top: 0.5vh;">
+        <li>
+          <h4><%= t('countdown') %> :</h4>
+        </li>
+        <li>
+          <div id="getting-started"></div>
+          <% content_for(:after_js) do %>
+          <script type="text/javascript">
+          $('#getting-started').countdown('2017/04/01', function(event) {
+          $(this).html(event.strftime('%w <%= t('week') %>  %d <%= t('day') %> %H <%= t('hour') %> %M <%= t('minute') %> %S <%= t('second') %>'));
+          });
+          </script>
+          <% end %>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
+<!-- coutdown finished -->
+
+<section class="grid whitebg">
+  <div class="container-fluid">
+    <div class="row">
+    <!-- col -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="hovercontainer">
+          <div class=" responsive img-responsive img" >
+            <figure><%= image_tag "photo2.jpg", alt: "ceremony"%></figure>
+            <div class="hovercontent">
+              <h3><%= t('title_ceremony') %></h3>
+              <h6><%= t('text_ceremomy') %></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- col -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="hovercontainer">
+          <div class=" responsive img-responsive img" >
+            <figure><%= image_tag "photo2.jpg", alt: "ceremony"%></figure>
+            <div class="hovercontent">
+              <h3><%= t('title_ceremony') %></h3>
+              <h6><%= t('text_ceremomy') %></h6>
+            </div>
+          </div>
+        </div>
+      <!-- col -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="hovercontainer">
+          <div class=" responsive img-responsive img" >
+            <figure><%= image_tag "photo2.jpg", alt: "ceremony"%></figure>
+            <div class="hovercontent">
+              <h3><%= t('title_ceremony') %></h3>
+              <h6><%= t('text_ceremomy') %></h6>
+            </div>
+          </div>
+        </div>
+      <!-- col -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="hovercontainer">
+          <div class=" responsive img-responsive img" >
+            <figure><%= image_tag "photo2.jpg", alt: "ceremony"%></figure>
+            <div class="hovercontent">
+              <h3><%= t('title_ceremony') %></h3>
+              <h6><%= t('text_ceremomy') %></h6>
+            </div>
+          </div>
+        </div>
+      <!-- col -->
+    </div>
+  </div>
+</section>

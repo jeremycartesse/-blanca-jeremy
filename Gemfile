@@ -18,6 +18,13 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'rails-i18n'
 
+gem 'jquery-fileupload-rails'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery.countdown'
+  gem 'rails-assets-lightbox2'
+end
+
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'

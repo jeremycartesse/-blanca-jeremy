@@ -6,5 +6,11 @@ fr:
     text_music: "vous trouverez un espace qui vous permettra de nous faire partager la musique que vous souhaiterez écouter durant le mariage"
     title_tourism: "tourisme"
     text_tourism: "nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
+    countdown: "temps restant avant le grand jour"
+    week: "sem : "
+    day: "j : "
+    hour: "h : "
+    minute: "m :"
+    second: "s : "
 
 
