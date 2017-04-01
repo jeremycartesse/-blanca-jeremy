@@ -18,6 +18,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'rails-i18n'
 
+
 gem 'jquery-fileupload-rails'
 
 source 'https://rails-assets.org' do

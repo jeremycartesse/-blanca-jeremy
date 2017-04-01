@@ -12,3 +12,4 @@ cat:
     hour: "h : "
     minute: "m :"
     second: "s : "
+    new_music_title: "afegeix la música"
