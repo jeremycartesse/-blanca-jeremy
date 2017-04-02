@@ -4,6 +4,7 @@
 //= require jquery-fileupload/basic
 //= require jquery.countdown
 //= require lightbox2
-
+//= require underscore
+//= require gmaps/google
 
 //= require_tree .

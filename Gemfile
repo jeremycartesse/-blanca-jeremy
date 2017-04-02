@@ -18,6 +18,16 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'rails-i18n'
 
+gem "coffee-rails"
+gem "gmaps4rails"
+
+source 'https://rails-assets.org' do
+  gem "rails-assets-underscore"
+end
+
+gem 'geocoder'
+gem "gmaps4rails"
+gem 'gmaps-autocomplete-rails'
 
 gem 'jquery-fileupload-rails'
 
