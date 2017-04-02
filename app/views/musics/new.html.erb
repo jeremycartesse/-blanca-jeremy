@@ -1,0 +1,20 @@
+<h1>Musics#new</h1>
+<p>Find me in app/views/musics/new.html.erb</p>
+
+<h1 class="text-center" ><%= t('new_music_title') %></h1>
+<br>
+<br>
+<div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
+  <div class="row">
+    <%= simple_form_for [@music] do |f| %>
+    <%= f.input :name %>
+    <%= f.input :link %>
+    <%= f.input :comment %>
+    <br>
+    <br class="text-center">
+    <%= f.submit "Valider" %>
+    <% end %>
+    <br>
+
+  </div>
+</div>
