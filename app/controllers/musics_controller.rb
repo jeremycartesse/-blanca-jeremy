@@ -28,6 +28,9 @@ class MusicsController < ApplicationController
   end
 
   def destroy
+    @music = Music.find(params[:id])
+    @music.destroy
+    redirect_to musics_path
   end
 
   private

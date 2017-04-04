@@ -19,7 +19,7 @@ gem 'autoprefixer-rails'
 gem 'rails-i18n'
 
 gem "coffee-rails"
-gem "gmaps4rails"
+gem "letter_opener", group: :development
 
 source 'https://rails-assets.org' do
   gem "rails-assets-underscore"

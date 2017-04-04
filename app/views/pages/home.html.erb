@@ -72,13 +72,15 @@
     </div>
   </div>
   <!-- coutdown finished -->
-  <!-- grid of the website -->
+  <!-- grid of the website  -->
   <!-- end of grid of website -->
-  <div class="container text-center padded features">
+  <div class="container">
     <div class="row">
       <!-- col -->
       <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
+      <%= link_to wedding_path do %>
         <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <% end %>
         <div class="hovercontent">
           <h3><%= t('title_ceremony') %></h3>
           <h6><%= t('text_ceremomy') %></h6>
@@ -87,27 +89,33 @@
       <!-- end col -->
       <!-- col -->
       <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
+        <%= link_to musics_path do %>
         <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <% end %>
         <div class="card hovercontent ">
-          <h3><%= t('title_ceremony') %></h3>
-          <h6><%= t('text_ceremomy') %></h6>
+          <h3><%= t('title_music') %></h3>
+          <h6><%= t('text_music') %></h6>
         </div>
       </div>
       <!-- end col -->
       <!-- col -->
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+       <%= link_to tourism_path do %>
         <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <% end %>
         <div class="hovercontent">
-          <h3><%= t('title_ceremony') %></h3>
-          <h6><%= t('text_ceremomy') %></h6>
+          <h3><%= t('title_tourism') %></h3>
+          <h6><%= t('text_tourism') %></h6>
         </div>
       </div>
       <!-- col -->
       <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
+       <%= link_to contact_path do %>
         <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <% end %>
         <div class="hovercontent">
-          <h3><%= t('title_ceremony') %></h3>
-          <h6><%= t('text_ceremomy') %></h6>
+          <h3><%= t('contact_title') %></h3>
+          <h6><%= t('contact_text') %></h6>
         </div>
       </div>
 </div>

@@ -25,10 +25,15 @@ cat:
     hotel_address: "Pujada al Castell de Xàtiva, s/n.46800 Xàtiva"
     hotel_time: "20h30"
 
-    contact_title: "no hesita contactos nosotros"
+    contact_title: "Contact"
+    contact_text: "no hesita contactos nosotros"
     contact_name_blanca: "Blanca Valero Meseguer"
     contact_name_Jeremy: "Jérémy CARTESSE"
     address_france: "Appartement 25, Résidence Carré des Arts, 220 avenue de Pérouse, 13090 Aix-en-Provence"
     address_spain: "Cristo de la Peña, 33, "
     contact_mum_blanca: "Rosa Meseguer Calatayud"
     contact_mum_jeremy: "Roseline Edmond"
+
+    # tourism
+    invited_space: "invitados"
+
