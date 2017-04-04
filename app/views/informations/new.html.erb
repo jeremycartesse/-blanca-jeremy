@@ -1,0 +1,19 @@
+<h1>Informations#new</h1>
+<p>Find me in app/views/informations/new.html.erb</p>
+<h1 class="text-center" ><%= t('new_information_title') %></h1>
+<br>
+<br>
+<div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
+  <div class="row">
+    <%= simple_form_for [@information] do |f| %>
+    <%= f.input :type_message %>
+    <%= f.input :subject %>
+    <%= f.input :message %>
+    <br>
+    <br class="text-center">
+    <%= f.submit "Valider" %>
+    <% end %>
+    <br>
+
+  </div>
+</div>

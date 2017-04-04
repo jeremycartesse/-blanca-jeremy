@@ -1,0 +1,30 @@
+<h1>Users#edit</h1>
+<p>Find me in app/views/users/edit.html.erb</p>
+
+
+
+
+<h1 class="text-center" >modifie et complete ton profil</h1>
+<br>
+<br>
+<div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
+  <div class="row">
+    <%= simple_form_for [@user] do |f| %>
+    <%= f.input :first_name %>
+    <%= f.input :last_name %>
+    <%= f.input :email %>
+    <%= f.input :phone_number %>
+    <%= f.input :description %>
+    <br>
+    <%= f.select :nationality, User::NATIONALITY %>
+    <br>
+    <br>
+    <br class="text-center">
+    <%= f.submit "Valider", class: "btn btn-primary" %>
+    <% end %>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>

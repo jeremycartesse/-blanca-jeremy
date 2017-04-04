@@ -6,4 +6,7 @@ class PagesController < ApplicationController
 
   def wedding
   end
+  def contact
+    @information
+  end
 end
