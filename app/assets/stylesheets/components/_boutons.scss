@@ -1,0 +1,66 @@
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+.bouton_nom {
+  font-family: Quicksand;
+  font-size: 20px;
+  position: relative;top:-8px;left: -10px;
+  color: #e60000;
+  border: none;
+  background: transparent
+}
+.bouton_nom:hover {
+  color: grey !important;
+  font-family: Quicksand;
+  text-decoration: none !important;
+  font-size: 20px;
+  position: relative;top:-8px;
+  border: none;
+  background: transparent
+}
+
+.effect {
+background: none;
+ border: solid 1px #990000;
+-webkit-border-radius: 40;
+-moz-border-radius: 40;
+padding-left: 30px;
+padding-right:30px;
+padding-top:-20px;
+border-radius: 40px;
+outline: none;
+text-decoration:none;
+font-size: 50px;
+font-family: roboto;
+font-weight:lighter;
+color: #990000;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+

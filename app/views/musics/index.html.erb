@@ -1,27 +1,36 @@
 <h1>Musics#index</h1>
 <p>Find me in app/views/musics/index.html.erb</p>
-<%= link_to 'add a new video', new_music_path %>
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12">
-      <div class="row">
-        <% @musics.each do |music| %>
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" style="width: 315px; height: 315px;">
-            <iframe width="315" height="315" src="<%=music.link.gsub("watch?v=", "embed/")%>"  frameborder="0" allowfullscreen> </iframe>
-            <div class="card-category"><%= music.user.nationality %></div>
-            <div class="card-description">
-              <h2><%= music.name %></h2>
-              <p><%= music.comment %> </p>
-              <p><%= music.user.last_name %><%= music.user.first_name %></p>
+<div class="text-center">
+  <%= link_to 'add a new video', new_music_path, class: "hvr-grow btn btn-medium" %>
+  <br>
+  <br>
+  <br>
+</div>
+<div class="wrapper-beige">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="row">
+          <% @musics.each do |music| %>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="width: 315px; height: 315px;">
+              <iframe width="315" height="315" src="<%=music.link.gsub("watch?v=", "embed/")%>"  frameborder="0" allowfullscreen> </iframe>
+              <div class="card-category"><%= music.user.nationality %></div>
+              <div class="card-description">
+                <h2><%= music.name %></h2>
+                <p><%= music.comment %> </p>
+                <p><%= music.user.last_name %><%= music.user.first_name %></p>
+              </div>
+              <img class="card-user avatar avatar-large" src="images/seb.jpg">
+              <br>
+              <br>
+              <%= link_to "Delete", music_path(music.id), class: "hvr-grow btn btn-medium",
+              method: :delete,
+              data: { confirm: "Are you sure?" } %>
             </div>
-            <img class="card-user avatar avatar-large" src="images/seb.jpg">
-            <%= link_to "Delete", music_path(music.id), class: "btn-primary",
-            method: :delete,
-            data: { confirm: "Are you sure?" } %>
           </div>
+          <% end %>
         </div>
-        <% end %>
       </div>
     </div>
   </div>
