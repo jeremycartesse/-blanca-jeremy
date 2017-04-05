@@ -1,12 +1,19 @@
 <h1>Musics#new</h1>
 <p>Find me in app/views/musics/new.html.erb</p>
+<div class="text-center">
+  <%= link_to 'all the music', musics_path, class: "hvr-grow btn btn-medium" %>
+    <br>
+    <br>
 
-<%= link_to 'all the music', musics_path %>
+</div>
 
-<h1 class="text-center" ><%= t('new_music_title') %></h1>
-<br>
-<br>
-<div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
+  <div class="wrapper-beige">
+  <h2 class="text-center" ><%= t('new_music_title') %></h2>
+  </div>
+  <br>
+  <br>
+
+<div class="container music">
   <div class="row">
     <%= simple_form_for [@music] do |f| %>
     <%= f.input :name %>
@@ -14,9 +21,8 @@
     <%= f.input :comment %>
     <br>
     <br class="text-center">
-    <%= f.submit "Valider" %>
+    <%= f.submit "Valider", class: "hvr-grow btn btn-medium" %>
     <% end %>
     <br>
-
   </div>
 </div>

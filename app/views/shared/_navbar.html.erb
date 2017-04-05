@@ -16,19 +16,30 @@
     </form> -->
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link"><% t('title_music') %></a>
+    <%= link_to musics_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('title_music') %>
+    <% end %>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link"><% t('invited_space') %></a>
+    <%= link_to musics_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('invited_space') %>
+    <% end %>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link"><% t('title_ceremony') %></a>
+    <%= link_to wedding_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('title_ceremony') %>
+    <% end %>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link"><% t('title_tourism') %></a>
+    <%= link_to tourism_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('title_tourism') %>
+    <% end %>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link"><%= t('contact_title') %></a>
+    <%= link_to contact_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('contact_title') %>
+    <% end %>
+
 
     <!-- Different navigation if login or not -->
     <% if user_signed_in? %>
@@ -81,8 +92,16 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Some mobile link</a></li>
-        <li><a href="#">Other one</a></li>
+        <li>
+        <%= link_to musics_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+          <%= t('title_music') %>
+        <% end %>
+        </li>
+        <li>
+          <%= link_to wedding_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+            <%= t('title_ceremony') %>
+          <% end %>
+        </li>
         <li><a href="#">Other one</a></li>
       </ul>
     </div>
