@@ -1,9 +1,6 @@
-<h1>Pages#home</h1>
-<h2><%= t('hello') %></h2>
-<p>Find me in app/views/pages/home.html.erb</p>
-<h2>welcome to the weeding site of jeremy </h2>
 
-<div class="container">
+<h2><%= t('hello') %></h2>
+
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: relative; top: 5vh; width: 100%; height: 110vh;overflow: hidden;">
     <!-- Indicators -->
     <ol class="carousel-indicators ">
@@ -46,7 +43,7 @@
     </a>
   </div>
   <!-- countdown starting -->
-  <div class="wrapper-grey">
+  <div class="wrapper-beige">
     <div class="container">
       <div class="row">
         <div class="col-sm-offset-4 col-sm-4">
@@ -74,12 +71,12 @@
   <!-- coutdown finished -->
   <!-- grid of the website  -->
   <!-- end of grid of website -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <!-- col -->
       <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
       <%= link_to wedding_path do %>
-        <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
         <% end %>
         <div class="hovercontent">
           <h3><%= t('title_ceremony') %></h3>
@@ -90,7 +87,7 @@
       <!-- col -->
       <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
         <%= link_to musics_path do %>
-        <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
         <% end %>
         <div class="card hovercontent ">
           <h3><%= t('title_music') %></h3>
@@ -101,7 +98,7 @@
       <!-- col -->
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
        <%= link_to tourism_path do %>
-        <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
         <% end %>
         <div class="hovercontent">
           <h3><%= t('title_tourism') %></h3>
@@ -111,7 +108,7 @@
       <!-- col -->
       <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
        <%= link_to contact_path do %>
-        <%= image_tag "table.jpg", alt: "ceremony", class: "card"%>
+        <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
         <% end %>
         <div class="hovercontent">
           <h3><%= t('contact_title') %></h3>
