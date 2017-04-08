@@ -4,7 +4,8 @@ class InformationsController < ApplicationController
   end
 
   def create
-    @information = current_user.informations.build(information_params)
+    @information = Information.new(information_params)
+    @information.user_id = current_user.id
     if @information.save
       InformationMailer.creation_confirmation(@information).deliver_now
       redirect_to wedding_path(@information)
