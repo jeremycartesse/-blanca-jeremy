@@ -16,7 +16,7 @@
 @import "musics/index";
 
 
-.banner {
+.banner_maintenance {
   color: white;
   text-align: center;
   height: 100vh;
@@ -27,12 +27,12 @@
   align-items: center;
   justify-content: center;
 }
-.banner h1 {
+.banner_maintenance h1 {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
-.banner p {
+.banner_maintenance p {
   font-size: 20px;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
