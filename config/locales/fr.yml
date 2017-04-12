@@ -7,6 +7,8 @@ fr:
     title_music: "Idée musique"
     text_music: "vous trouverez un espace qui vous permettra de nous faire partager la musique que vous souhaiterez écouter durant le mariage"
     new_music_title: "Ajouter une chanson que vous souhaiterez entendre"
+    add_music: "ajouter une chanson"
+    all_music: "toutes les chansons"
     # Tourism page
     title_tourism: "tourisme"
     text_tourism: "nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
@@ -25,5 +27,19 @@ fr:
     hotel_address: "Subida al Castillo de Xàtiva, s/n.46800 Xàtiva, Valencia, Espagne"
     hotel_time: "20h30"
     contact_title: "Contact"
+
+    annonce_title : "bienvenue sur notre site de mariage, vous  trouvez tous les renseignements nécessaires pour organiser votre venue.  Pour avoir accès aux informations, il suffit de vous inscrire. N’hésitez pas à remplir votre profil pour recevoir les dernières annonces et les nouveautés sur le site. Profitez pour découvrir les invités. Vous pouvez également partager des photos et les chansons que vous souhaiterez entendre durant le mariage. Bonne navigation."
+
+    GPS_title : “Coordonnee GPS”
+    lat_church : “4444444”
+    long_church :  “444444”
+    advice_church: “ La cérémonie commencera pour 18h30 , il est préférable d’arriver 15 minutes avant pour le placement de la famille et les amis”
+    lat_montsant : “40.395718”
+    long_ montsant :  “-3.794666”
+    advice_montsant: “le cocktail commencera à 20h30, Venez tôt pour profiter de chaque instant avec nous ”
+    church_monsant : "Il faut compter environ 30 minutes en voiture entre l’église et l’hôtel. Un grand parking sera mise à votre disposition"
+
+
+
 
 

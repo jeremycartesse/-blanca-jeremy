@@ -38,3 +38,51 @@
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px;
 }
+
+.crop {
+    position: relative;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.crop .cropim {
+  position: absolute;
+  top: -1500px;
+  left: -1500px;
+  right: -1500px;
+  bottom: -1500px;
+  width: 150%;
+  height: auto;
+  margin: auto;
+
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.name_user-white {
+  z-index: 5;
+  position:relative;
+  left: -50px;
+  top: 10px;
+  float: right;
+  color:white;
+  font-family: Work Sans;
+  letter-spacing: 1px;
+  font-size: 22px;
+}

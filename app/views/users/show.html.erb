@@ -1,12 +1,16 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 " style="padding-top: 5vh; ">
       <div>
         <div class="row ">
           <div class="col-xs-12 col-sm-12 col-md-12 text-center" >
-            <div style="padding-bottom: 25px;"><%= image_tag "table.jpg", :style =>"border-radius: 50%; width: 150px; height: 150px; " %></div>
+            <div style="padding-bottom: 25px;">
+              <% if @user.photo_avatar? %>
+              <%= cl_image_tag @user.photo_avatar.path,:style =>"border-radius: 50%; width: 150px; height: 150px; " %>
+              <% else %>
+              <%= image_tag "photo_avatar.jpg", :style =>"border-radius: 50%; width: 150px; height: 150px; " %>
+              <% end %>
+            </div>
           </div>
         </div>
         <div class="row ">
