@@ -1,7 +1,10 @@
 fr:
+  #home page
     date_wedding: "22 juillet 2017"
     title_ceremony: "Cérémonie du mariage"
     text_ceremomy: " toutes les informations"
+    annonce_title : "bienvenue sur notre site de mariage, vous  trouvez tous les renseignements nécessaires pour organiser votre venue.  Pour avoir accès aux informations, il suffit de vous inscrire. N’hésitez pas à remplir votre profil pour recevoir les dernières annonces et les nouveautés sur le site. Profitez pour découvrir les invités. Vous pouvez également partager des photos et les chansons que vous souhaiterez entendre durant le mariage. Bonne navigation."
+
 
     # Music page
     title_music: "Idée musique"
@@ -9,6 +12,7 @@ fr:
     new_music_title: "Ajouter une chanson que vous souhaiterez entendre"
     add_music: "ajouter une chanson"
     all_music: "toutes les chansons"
+
     # Tourism page
     title_tourism: "tourisme"
     text_tourism: "nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
@@ -19,6 +23,8 @@ fr:
     minute: "m :"
     second: "s : "
 
+    gallery_title: "Gallerie"
+
 # wedding page
     church_name: "Iglesia de San Vicente Mártir"
     church_address: "Calle Mayor,s/n, 46610 Guadassuar, Valencia, Espagne"
@@ -28,8 +34,6 @@ fr:
     hotel_time: "20h30"
     contact_title: "Contact"
 
-    annonce_title : "bienvenue sur notre site de mariage, vous  trouvez tous les renseignements nécessaires pour organiser votre venue.  Pour avoir accès aux informations, il suffit de vous inscrire. N’hésitez pas à remplir votre profil pour recevoir les dernières annonces et les nouveautés sur le site. Profitez pour découvrir les invités. Vous pouvez également partager des photos et les chansons que vous souhaiterez entendre durant le mariage. Bonne navigation."
-
     GPS_title : “Coordonnee GPS”
     lat_church : “4444444”
     long_church :  “444444”
@@ -38,6 +42,19 @@ fr:
     long_ montsant :  “-3.794666”
     advice_montsant: “le cocktail commencera à 20h30, Venez tôt pour profiter de chaque instant avec nous ”
     church_monsant : "Il faut compter environ 30 minutes en voiture entre l’église et l’hôtel. Un grand parking sera mise à votre disposition"
+
+    #welcome user email
+    subject_welcome: "Bienvenue sur le site Blanca-Jeremy"
+    welcome_message1: "Nous te confirmons que tu viens de faire la plus belle chose de ta vie, tu t’es inscrit sur notre site du mariage ;)."
+    welcome_message2: "Tu trouveras toutes les informations  pour préparer ta venue et passer une bonne journée avec nous."
+    welcome_message3: "N’oublie pas de compléter ton profil (lien)  et découvrir les invités qui seront parmi-nous en avant-première ici (<%= link_to "présence ici", contact_url %>,)."
+    welcome_message4: "Nous t’embrassons fort,"
+    signature_email: "Blanca et Jérémy"
+    signature_email2: "T   06 99 11 73 95 /06 44 23 49 13"
+    signature_email3: "M   info@blanca-jeremy.com"
+
+
+
 
 
 

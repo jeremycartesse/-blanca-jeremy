@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_attachment :photo_avatar
+  has_attachments :picture_name, maximum: 10
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
@@ -9,6 +10,7 @@ class User < ApplicationRecord
 
   has_many :musics
   has_many :informations
+  has_many :pictures
 
 
 

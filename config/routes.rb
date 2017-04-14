@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   mount Attachinary::Engine => "/attachinary"
   devise_for :users
   root to: 'pages#home'
@@ -7,6 +8,7 @@ Rails.application.routes.draw do
     resources :musics
     resources :users
     resources :informations
+    resources :pictures
     get '/wedding', to: 'pages#wedding'
     get '/contact', to: 'pages#contact'
     get '/tourism', to: 'pages#tourism'
