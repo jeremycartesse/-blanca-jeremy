@@ -7,10 +7,11 @@ class PagesController < ApplicationController
   def wedding
   end
   def contact
-    @information
   end
 
   def maintenance
-    @message
+  end
+
+  def transport
   end
 end

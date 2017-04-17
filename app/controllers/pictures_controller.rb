@@ -1,7 +1,6 @@
 class PicturesController < ApplicationController
   def index
     @pictures = Picture.all
-    @picture = Picture.new
   end
 
   def show
@@ -36,7 +35,7 @@ class PicturesController < ApplicationController
 
   private
 
-  def music_params
-    params.require(:picture).permit(:picture_name)
+  def picture_params
+    params.require(:picture).permit(:picture_name, photos: [])
   end
 end

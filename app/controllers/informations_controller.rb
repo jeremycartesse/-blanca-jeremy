@@ -1,5 +1,6 @@
 class InformationsController < ApplicationController
   def new
+    @user = User.find(current_user)
     @information = Information.new
   end
 
@@ -8,7 +9,7 @@ class InformationsController < ApplicationController
     @information.user_id = current_user.id
     if @information.save
       InformationMailer.creation_confirmation(@information).deliver_now
-      redirect_to wedding_path(@information)
+      redirect_to contact_path
     else
       render :new
     end

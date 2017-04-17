@@ -9,7 +9,7 @@ class User < ApplicationRecord
   after_create :send_welcome_email
 
   has_many :musics
-  has_many :informations
+  has_many :messages
   has_many :pictures
 
 

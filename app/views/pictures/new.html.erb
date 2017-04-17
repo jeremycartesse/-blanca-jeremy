@@ -1,12 +1,12 @@
-<h1>Pictures#new</h1>
-<p>Find me in app/views/pictures/new.html.erb</p>
-<h1 class="text-center" >modifie et complete ton profil</h1>
+
+<h1 class="text-center" ><%= t('new_picture') %></h1>
 <br>
 <br>
 <div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
   <div class="row">
     <%= simple_form_for [@picture] do |f| %>
-    <%= f.input :picture_name, as: :attachinary %>
+    <%= f.input :picture_name %>
+    <%= f.input :photos, as: :attachinary %>
     <br>
     <br>
     <br class="text-center">

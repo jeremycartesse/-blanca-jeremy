@@ -105,10 +105,21 @@
 
 
 
-  .hovercontainer:hover .hovercontent {
+.hovercontainer:hover .hovercontent {
     background-color: #ffffff;
   }
 
+.row.gutters {
+  margin-right: 1;
+  margin-left: 1;
 
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
 
 

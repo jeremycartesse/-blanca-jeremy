@@ -1,11 +1,31 @@
+<br>
+<div class="text-center">
+  <%= link_to(t("send_information") , new_user_information_path(current_user), class: "hvr-grow btn btn-medium") %>
+  <br>
+  <br>
+</div>
 <div class="wrapper-beige text-center">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h2><%= t('contact_title') %></h2>
-      <h3><%= t('contact_name_blanca') %></h3>
-      <p><%= t('address_spain') %></p>
-
+        <h3><%= t('contact_text') %></h3>
+        <br>
+        <i class="fa fa-user" style="color:#005971; font-size:30px; line-height:30px; vertical-align: middle;"> France</i>
+        <br>
+        <h3><%= t('contact_two_name') %></h3>
+        <p><%= t('address_france') %></p>
+        <p><%= t('contact_two_phone') %></p>
+        <p><%= t('contact_email') %></p>
+        <br>
+        <i class="fa fa-user" style="color:#005971; font-size:30px; line-height:30px; vertical-align: middle;">  Espana</i>
+        <h3><%= t('contact_mum_blanca') %></h3>
+        <p><%= t('address_spain') %></p>
+        <p><%= t('contact_mum_blanca_telephone') %></p>
+        <br>
+        <i class="fa fa-user" style="color:#005971; font-size:30px; line-height:30px; vertical-align: middle;"> Martinique</i>
+        <h3><%= t('contact_mum_jeremy') %></h3>
+        <p><%= t('address_martinique') %></p>
+        <p><%= t('contact_mum_jeremy_telephone') %></p>
       </div>
     </div>
   </div>

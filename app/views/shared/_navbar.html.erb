@@ -1,11 +1,63 @@
 <div class="navbar-wagon" >
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png", weight: "100x" %>
+    <%= image_tag "logo.png"%>
   <% end %>
+  <%= link_to root_path(:locale => 'cat'), class: "navbar-wagon-flag" do %>
+    <%= image_tag "cat.png"%>
+  <% end %>
+
+  <%= link_to root_path(:locale => 'fr'), class: "navbar-wagon-flag" do %>
+    <%= image_tag "fr.png"%>
+  <% end %>
+
+
+
+
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Text link -->
+    <%= link_to wedding_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('title_ceremony') %>
+    <% end %>
+
+  <!-- Text link -->
+    <%= link_to users_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('invited') %>
+    <% end %>
+
+
+    <!-- Text link -->
+    <%= link_to transport_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('transport_title') %>
+    <% end %>
+
+    <!-- Text link -->
+    <%= link_to present_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('present_title') %>
+    <% end %>
+
+
+    <!-- Text link -->
+    <%= link_to musics_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('title_music') %>
+    <% end %>
+
+    <!-- Text link -->
+    <%= link_to tourism_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('title_tourism') %>
+    <% end %>
+
+    <%= link_to pictures_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('gallery_title') %>
+    <% end %>
+
+    <!-- Text link -->
+    <%= link_to contact_path, class: "navbar-wagon-item navbar-wagon-link" do %>
+      <%= t('contact_title') %>
+    <% end %>
 
     <!-- Search form -->
     <!-- <form action="" class="navbar-wagon-search">
@@ -15,34 +67,6 @@
       </button>
     </form> -->
 
-    <!-- Text link -->
-    <%= link_to musics_path, class: "navbar-wagon-item navbar-wagon-link" do %>
-      <%= t('title_music') %>
-    <% end %>
-
-    <!-- Text link -->
-    <%= link_to musics_path, class: "navbar-wagon-item navbar-wagon-link" do %>
-      <%= t('invited_space') %>
-    <% end %>
-
-    <!-- Text link -->
-    <%= link_to wedding_path, class: "navbar-wagon-item navbar-wagon-link" do %>
-      <%= t('title_ceremony') %>
-    <% end %>
-
-    <!-- Text link -->
-    <%= link_to tourism_path, class: "navbar-wagon-item navbar-wagon-link" do %>
-      <%= t('title_tourism') %>
-    <% end %>
-
-    <!-- Text link -->
-    <%= link_to contact_path, class: "navbar-wagon-item navbar-wagon-link" do %>
-      <%= t('contact_title') %>
-    <% end %>
-
-    <%= link_to pictures_path, class: "navbar-wagon-item navbar-wagon-link" do %>
-      <%= t('gallery_title') %>
-    <% end %>
 
 
 
@@ -50,12 +74,12 @@
     <% if user_signed_in? %>
 
       <!-- Notification -->
-      <%= link_to "#", class: "navbar-wagon-item navbar-wagon-link" do %>
+      <!--<%= link_to "#", class: "navbar-wagon-item navbar-wagon-link" do %>
         <div class="badge-container">
           <i class="fa fa-envelope-o"></i>
           <div class="badge badge-blue">3</div>
         </div>
-      <% end %>
+      <% end %> -->
 
       <!-- Profile picture and dropdown -->
       <div class="navbar-wagon-item">
