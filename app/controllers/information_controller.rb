@@ -1,6 +1,7 @@
-class InformationsController < ApplicationController
+class InformationController < ApplicationController
+  skip_before_action :authenticate_user!
   def new
-    @user = User.find(current_user)
+  #  @user = User.find(current_user)
     @information = Information.new
   end
 

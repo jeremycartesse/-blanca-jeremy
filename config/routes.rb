@@ -5,9 +5,8 @@ Rails.application.routes.draw do
   scope '(:locale)', locale: /fr|cat/ do
     root to: 'pages#home'
     resources :musics
-    resources :users do
-      resources :informations, only: [ :new, :create]
-    end
+    resources :information, only: [:new, :create]
+
     resources :pictures
 
     get '/wedding', to: 'pages#wedding'
