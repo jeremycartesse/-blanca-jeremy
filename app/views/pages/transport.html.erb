@@ -11,10 +11,10 @@
 <br>
 <div class="container music">
   <div class="row">
-    <%= simple_form_for [@music] do |f| %>
-    <%= f.input :name %>
-    <%= f.input :link %>
-    <%= f.input :comment %>
+    <%= simple_form_for (@message) do |f| %>
+    <%= f.input :subject %>
+    <%= f.input :type_message %>
+    <%= f.input :message %>
     <br>
     <br class="text-center">
     <%= f.submit "Valider", class: "hvr-grow btn btn-medium" %>

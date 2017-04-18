@@ -1,0 +1,47 @@
+<br>
+<div class="text-center">
+  <%= link_to(t("add_new_picture"), new_picture_path, class: "hvr-grow btn btn-medium") %>
+  <br>
+  <br>
+</div>
+<br>
+<br>
+<div class="wrapper-beige">
+  <div class="container" >
+    <div class="row ">
+      <div class="col-xs-12 col-sm-12 col-md-12 " style="padding-top: 2vh;">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12col-md-12" style="position: relative; top: 3vh;">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 3vh;">
+                <div class="row">
+                  <% @pictures.each do  |picture| %>
+                  <% picture.photos.each do |photo| %>
+                  <div class="hvr-float">
+                    <div class="col-xs-12 col-sm-6 col-md-4" style="margin-bottom: 30px;">
+                      <div class="card " style="width: 250px; height: 250px;">
+                        <div class="crop cropim " >
+                          <%= cl_image_tag photo.path, :style =>" width: 250px; height: 250px;"%>
+                        </div>
+                        <div class="bottom-card">
+                          <div class="name_user-white">
+                            <%= picture.user.first_name %> <%= picture.user.last_name %>
+                          </div>
+                          <div class="card-avatar">
+                            <%= cl_image_tag picture.user.photo_avatar.path,:style =>" width: 100% " %>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <% end %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

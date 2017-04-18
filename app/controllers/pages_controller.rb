@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
-
-  skip_before_action :authenticate_user!, only: [ :maintenance ]
+  skip_before_action :authenticate_user!, only: [ :home]
 
   def home
   end
@@ -8,10 +7,13 @@ class PagesController < ApplicationController
   def wedding
   end
   def contact
-    @information
   end
 
   def maintenance
-    @message
+  end
+
+  def transport
+    @message = Message.new
+
   end
 end

@@ -1,14 +1,24 @@
-<h1>User#welcome</h1>
 
-<p>
-  <%= @greeting %>, find me in app/views/user_mailer/welcome.html.erb
-</p>
- Bonjour <%= @user.first_name %>,
+<p>Bonjour <%= @user.first_name %>,</p>
 
-Nous t'annonçons que tu es bien inscrit sur notre site.
+<p><%= t('welcome_message1') %></p>
 
-N'hesite pas a confirmer ta présence et post des chansons qui te ferais vibrer ;)
+<p><%= t('welcome_message2') %></p>
 
- <%= link_to "présence ici", contact_url %>,
+<p><%= t('welcome_message3') %> <%= link_to "ici." users_url %></p>
+
+<p><%= t('welcome_message4') %> </p>
+
+
+
+<p><%= t('signature_email') %></p>
+<p><%= t('signature_email2') %></p>
+<p><%= t('signature_email3') %></p>
+
+
+
+
+
+
 
 

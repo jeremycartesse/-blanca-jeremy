@@ -1,7 +1,3 @@
-<h1>Users#edit</h1>
-<p>Find me in app/views/users/edit.html.erb</p>
-
-
 
 
 <h1 class="text-center" >modifie et complete ton profil</h1>
@@ -17,6 +13,7 @@
     <%= f.input :description %>
     <br>
     <%= f.select :nationality, User::NATIONALITY %>
+    <%= f.input :photo_avatar, as: :attachinary %>
     <br>
     <br>
     <br class="text-center">
