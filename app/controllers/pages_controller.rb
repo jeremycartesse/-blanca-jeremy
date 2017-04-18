@@ -13,5 +13,7 @@ class PagesController < ApplicationController
   end
 
   def transport
+    @message = Message.new
+
   end
 end

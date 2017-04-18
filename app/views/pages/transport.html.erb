@@ -1,0 +1,24 @@
+<br>
+<div class="text-center">
+  <%= link_to(t("all_music"), musics_path, class: "hvr-grow btn btn-medium" )%>
+  <br>
+  <br>
+</div>
+<div class="wrapper-beige">
+  <h2 class="text-center" ><%= t('new_music_title') %></h2>
+</div>
+<br>
+<br>
+<div class="container music">
+  <div class="row">
+    <%= simple_form_for (@message) do |f| %>
+    <%= f.input :subject %>
+    <%= f.input :type_message %>
+    <%= f.input :message %>
+    <br>
+    <br class="text-center">
+    <%= f.submit "Valider", class: "hvr-grow btn btn-medium" %>
+    <% end %>
+    <br>
+  </div>
+</div>
