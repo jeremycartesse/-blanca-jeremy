@@ -3,13 +3,14 @@
 <br>
 <div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
   <div class="row">
-    <%= simple_form_for [@information] do |f| %>
-    <%= f.input :type_message %>
-    <%= f.input :subject %>
-    <%= f.input :message %>
-    <br>
-    <br class="text-center">
-    <%= f.submit "Valider" %>
+
+    <%= simple_form_for(@information) do |f| %>
+      <%= f.input :type_message %>
+      <%= f.input :subjet %>
+      <%= f.input :message %>
+      <br>
+      <br class="text-center">
+      <%= f.submit "Valider" %>
     <% end %>
     <br>
   </div>
