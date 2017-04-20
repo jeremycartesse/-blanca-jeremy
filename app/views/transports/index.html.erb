@@ -13,10 +13,10 @@
 <div class="container music">
   <div class="row">
 
-    <%= @transports.each do |transport| %>
-      <% transport.depart %>
+    <% @transports.each do |transport| %>
+      <%= transport.depart %>
       <%= transport.return %>
-      <%= transport.type %>
+      <%= transport.kind %>
       <%= transport.t_message %>
       <%= transport.place_number %>
 

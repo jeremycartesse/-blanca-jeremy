@@ -71,7 +71,7 @@ ActiveRecord::Schema.define(version: 20170420053800) do
   create_table "transports", force: :cascade do |t|
     t.string   "depart"
     t.string   "return"
-    t.string   "type"
+    t.string   "kind"
     t.text     "t_message"
     t.string   "place_number"
     t.integer  "user_id"

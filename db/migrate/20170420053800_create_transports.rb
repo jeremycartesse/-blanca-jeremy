@@ -3,7 +3,7 @@ class CreateTransports < ActiveRecord::Migration[5.0]
     create_table :transports do |t|
       t.string :depart
       t.string :return
-      t.string :type
+      t.string :kind
       t.text :t_message
       t.string :place_number
       t.references :user, foreign_key: true

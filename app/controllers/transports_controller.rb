@@ -13,7 +13,7 @@ class TransportsController < ApplicationController
 
   def create
     @transport = Transport.new(transport_params)
-    @transport.transport_id = current_transport.id
+    @transport.user_id = current_user.id
     if @transport.save
       redirect_to transports_path
     else
@@ -38,6 +38,6 @@ class TransportsController < ApplicationController
   end
 
   def transport_params
-    params.require(:transport).permit(:depart, :return, :type, :t_message, :place_number)
+    params.require(:transport).permit(:depart, :return, :kind, :t_message, :place_number)
   end
 end

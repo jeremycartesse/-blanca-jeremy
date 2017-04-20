@@ -8,9 +8,8 @@ Rails.application.routes.draw do
     resources :musics
     resources :users
     resources :information, only: [:new, :create]
-
     resources :pictures
-    resources :transports, only: [:new, :create]
+    resources :transports
 
     get '/wedding', to: 'pages#wedding'
     get '/contact', to: 'pages#contact'
