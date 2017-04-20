@@ -12,8 +12,7 @@ class PagesController < ApplicationController
   def maintenance
   end
 
-  def transport
-    @message = Message.new
+  def transpot
 
-  end
+    end
 end

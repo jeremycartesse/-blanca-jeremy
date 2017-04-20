@@ -4,10 +4,12 @@
 <div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
   <div class="row">
 
-    <%= simple_form_for(@information) do |f| %>
-      <%= f.select :type_message, Information::TYPE_MESSAGE %>
-      <%= f.input :subjet %>
-      <%= f.input :message %>
+    <%= simple_form_for(@transport) do |f| %>
+      <%= f.input :depart%>
+      <%= f.input :return %>
+      <%= f.input :kind %>
+      <%= f.input :place_number %>
+      <%= f.input :t_message %>
       <br>
       <br class="text-center">
       <%= f.submit "Valider" %>
@@ -15,3 +17,4 @@
     <br>
   </div>
 </div>
+
