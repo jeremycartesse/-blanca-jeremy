@@ -6,6 +6,12 @@ GIT
       cloudinary (~> 1.1.0)
       rails (>= 3.2)
 
+GIT
+  remote: https://github.com/stNicolaas/light-gallery-rails.git
+  revision: 97d892d0b4637ddae264514e2a44372853ff6f83
+  specs:
+    light_gallery_rails (1.1.4)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -166,7 +172,6 @@ GEM
     rails-assets-jquery (3.1.1)
     rails-assets-jquery.countdown (2.2.0)
       rails-assets-jquery (>= 1.7)
-    rails-assets-lightbox2 (2.7.1)
     rails-assets-underscore (1.8.3)
     rails-dom-testing (2.0.2)
       activesupport (>= 4.2.0, < 6.0)
@@ -253,6 +258,7 @@ DEPENDENCIES
   jquery-fileupload-rails
   jquery-rails
   letter_opener
+  light_gallery_rails!
   listen (~> 3.0.5)
   pg
   pry-byebug
@@ -260,7 +266,6 @@ DEPENDENCIES
   puma
   rails (= 5.0.1)
   rails-assets-jquery.countdown!
-  rails-assets-lightbox2!
   rails-assets-underscore!
   rails-i18n
   redis
@@ -274,4 +279,4 @@ RUBY VERSION
    ruby 2.3.3p222
 
 BUNDLED WITH
-   1.14.5
+   1.14.6
