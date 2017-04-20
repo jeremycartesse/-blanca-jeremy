@@ -5,7 +5,7 @@
   <div class="row">
 
     <%= simple_form_for(@information) do |f| %>
-      <%= f.input :type_message %>
+      <%= f.select :type_message, Information::TYPE_MESSAGE %>
       <%= f.input :subjet %>
       <%= f.input :message %>
       <br>

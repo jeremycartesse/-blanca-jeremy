@@ -1,6 +1,6 @@
 <br>
 <div class="text-center">
-  <%= link_to(t("all_music"), musics_path, class: "hvr-grow btn btn-medium" )%>
+  <%= link_to(t("send_information") , new_information_path, class: "hvr-grow btn btn-medium") %>
   <br>
   <br>
 </div>
@@ -11,13 +11,14 @@
 <br>
 <div class="container music">
   <div class="row">
-    <%= simple_form_for (@message) do |f| %>
-    <%= f.input :subject %>
-    <%= f.input :type_message %>
-    <%= f.input :message %>
-    <br>
-    <br class="text-center">
-    <%= f.submit "Valider", class: "hvr-grow btn btn-medium" %>
+
+    <%= @informations.each do |information| %>
+      <%if information.type_message = "transport" %>
+        <%= information.message %>
+        <br> <%= "je suis la" %>
+      <% else %>
+        <%= "je suis plutot ici" %>
+      <% end %>
     <% end %>
     <br>
   </div>

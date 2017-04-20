@@ -13,7 +13,6 @@ class PagesController < ApplicationController
   end
 
   def transport
-    @message = Message.new
-
-  end
+    @informations = Information.all
+    end
 end
