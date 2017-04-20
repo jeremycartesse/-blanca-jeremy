@@ -28,7 +28,9 @@
                             <%= picture.user.first_name %> <%= picture.user.last_name %>
                           </div>
                           <div class="card-avatar">
-                            <%= cl_image_tag picture.user.photo_avatar.path,:style =>" width: 100% " %>
+                            <% if picture.user.photo_avatar.present? %>
+                              <%= cl_image_tag picture.user.photo_avatar.path,:style =>" width: 100% " %>
+                            <% end %>
                           </div>
                         </div>
                       </div>
