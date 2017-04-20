@@ -35,9 +35,10 @@ gem "gmaps4rails"
 gem 'gmaps-autocomplete-rails'
 
 
+gem 'light_gallery_rails', git: 'https://github.com/stNicolaas/light-gallery-rails.git'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery.countdown'
-  gem 'rails-assets-lightbox2'
 end
 
 group :development, :test do
@@ -50,5 +51,3 @@ group :development, :test do
   gem 'listen', '~> 3.0.5'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
-
