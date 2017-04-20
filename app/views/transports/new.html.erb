@@ -1,0 +1,20 @@
+<h1 class="text-center" ><%= t('new_information_title') %></h1>
+<br>
+<br>
+<div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
+  <div class="row">
+
+    <%= simple_form_for(@transport) do |f| %>
+      <%= f.input :depart%>
+      <%= f.input :return %>
+      <%= f.input :type %>
+      <%= f.input :place_number %>
+      <%= f.input :t_message %>
+      <br>
+      <br class="text-center">
+      <%= f.submit "Valider" %>
+    <% end %>
+    <br>
+  </div>
+</div>
+

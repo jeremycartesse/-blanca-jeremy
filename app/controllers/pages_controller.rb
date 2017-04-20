@@ -12,7 +12,7 @@ class PagesController < ApplicationController
   def maintenance
   end
 
-  def transport
-    @informations = Information.all
+  def transpot
+
     end
 end

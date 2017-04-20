@@ -1,0 +1,43 @@
+class TransportsController < ApplicationController
+  def index
+    @transports = Transport.all
+  end
+
+  def show
+    @transport = Transport.find(params[:id])
+  end
+
+  def new
+    @transport = Transport.new
+  end
+
+  def create
+    @transport = Transport.new(transport_params)
+    @transport.transport_id = current_transport.id
+    if @transport.save
+      redirect_to transports_path
+    else
+      render :new
+    end
+  end
+
+  def edit
+    @transport = Transport.find(params[:id])
+  end
+
+  def update
+    @transport = Transport.find(params[:id])
+    if @transport.update(transport_params)
+      redirect_to transport_path
+    else
+      render :edit
+    end
+  end
+
+  def destroy
+  end
+
+  def transport_params
+    params.require(:transport).permit(:depart, :return, :type, :t_message, :place_number)
+  end
+end

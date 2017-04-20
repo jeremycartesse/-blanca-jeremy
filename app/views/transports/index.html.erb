@@ -1,0 +1,26 @@
+
+<br>
+<div class="text-center">
+  <%= link_to(t("send_information") , new_transport_path, class: "hvr-grow btn btn-medium") %>
+  <br>
+  <br>
+</div>
+<div class="wrapper-beige">
+  <h2 class="text-center" ><%= t('new_music_title') %></h2>
+</div>
+<br>
+<br>
+<div class="container music">
+  <div class="row">
+
+    <%= @transports.each do |transport| %>
+      <% transport.depart %>
+      <%= transport.return %>
+      <%= transport.type %>
+      <%= transport.t_message %>
+      <%= transport.place_number %>
+
+    <% end %>
+    <br>
+  </div>
+</div>

@@ -11,6 +11,7 @@ class User < ApplicationRecord
   has_many :musics
   has_many :messages
   has_many :pictures
+  has_many :transports
 
 
 
