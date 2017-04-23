@@ -24,7 +24,7 @@
               </div>
               <div style="color:grey;font-family: Quicksand; font-size: 25px; display: inline-flex;justify-content: space-around;">
                 <%= @user.nationality %>
-                <p style="padding-left: 25px;"><%= @user.phone_number %></p>
+                <p style="padding-left: 25px;"><%= @user.famille %></p>
               </div>
               <br>
               <div style="color:grey;font-family: Quicksand; font-size: 25px; display: inline-flex;justify-content: space-around;">
@@ -40,8 +40,12 @@
           </div>
           <br>
           <div class="text-center">
+          <% if @user.id == current_user.id %>
             <%= link_to 'edit', edit_user_path(current_user), class: "hvr-grow btn btn-medium" %>
             <%= link_to 'all user', users_path, class: "hvr-grow btn btn-medium" %>
+            <% else %>
+            <%= link_to 'all user', users_path, class: "hvr-grow btn btn-medium" %>
+            <% end %>
           </div>
         </div>
       </div>

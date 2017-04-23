@@ -1,5 +1,4 @@
 
-
 <h1 class="text-center" >modifie et complete ton profil</h1>
 <br>
 <br>
@@ -13,6 +12,7 @@
     <%= f.input :description %>
     <br>
     <%= f.select :nationality, User::NATIONALITY %>
+    <%= f.select :famille, User::FAMILLE %>
     <%= f.input :photo_avatar, as: :attachinary %>
     <br>
     <br>
