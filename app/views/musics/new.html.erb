@@ -12,9 +12,9 @@
 <div class="container music">
   <div class="row">
     <%= simple_form_for [@music] do |f| %>
-    <%= f.input :name %>
-    <%= f.input :link %>
-    <%= f.input :comment %>
+    <%= f.input :name ,label: t('sf_name_music') %>
+    <%= f.input :link, label: t('sf_youtube_link') %>
+    <% f.input :comment %>
     <br>
     <br class="text-center">
     <%= f.submit "Valider", class: "hvr-grow btn btn-medium" %>

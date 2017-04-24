@@ -1,19 +1,19 @@
 
-<h1 class="text-center" >modifie et complete ton profil</h1>
+<h1 class="text-center" ><%= t('modify_profil') %></h1>
 <br>
 <br>
-<div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
+<div class="container music">
   <div class="row">
     <%= simple_form_for [@user] do |f| %>
-    <%= f.input :first_name %>
-    <%= f.input :last_name %>
+    <%= f.input :first_name, label:  t('sf_first_name') %>
+    <%= f.input :last_name, label: t('sf_last_name') %>
     <%= f.input :email %>
-    <%= f.input :phone_number %>
-    <%= f.input :description %>
+    <%= f.input :phone_number, label: t('sf_phone_number') %>
+    <%= f.input :description, label: t('sf_description') %>
     <br>
-    <%= f.select :nationality, User::NATIONALITY %>
+    <%= f.select :nationality, User::NATIONALITY , label: t('nationality')%>
     <%= f.select :famille, User::FAMILLE %>
-    <%= f.input :photo_avatar, as: :attachinary %>
+    <%= f.input :photo_avatar, as: :attachinary , label: t('sf_photo_avatar')%>
     <br>
     <br>
     <br class="text-center">

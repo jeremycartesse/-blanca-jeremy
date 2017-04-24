@@ -15,6 +15,10 @@ fr:
   add_music: "Ajouter une chanson"
   all_music: "Toutes les chansons"
 
+  #user_pages
+  edit_user: "Modifier mon profil"
+  all_user: "Toutes les invités"
+
   #Tourism_page
   title_tourism: "Tourisme"
   text_tourism: "Nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
@@ -48,6 +52,20 @@ fr:
   #invited_page
   invited: "Invités"
   more_details: "Plus d'infos"
+  modify_profil: "Modifie et complète ton profil"
+  nationality: "Nationalité"
+
+  #simple_form
+  sf_first_name: "Prénom:"
+  sf_last_name: "Nom de famille"
+  sf_phone_number: "Téléphone"
+  sf_description: "Écris une rapide description de toi"
+  sf_photo_avatar: "Photo Avatar"
+  sf_name_music: "Nom de la chanson"
+  sf_youtube_link: "Lien Youtube"
+
+
+
 
 
   #contact_page
@@ -82,6 +100,8 @@ fr:
 
   #picture_page
   new_picture: "Ajoute des photos que tu as de nous"
+  all_picture: "Toutes les photos"
+  add_new_picture: "Ajouter une photo"
 
   #transport_page
   transport_title: "Transport"
