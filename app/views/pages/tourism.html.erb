@@ -1,3 +1,29 @@
-<h1>Pages#tourism</h1>
-<h2><%= t('hello') %></h2>
-<p>Find me in app/views/pages/tourism.html.erb</p>
+
+<div class="wrapper-beige">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12 col-lg-12">
+      <h2 class="text-center" ><%= t('title_tourism') %></h2>
+      <h3><%= t('text_tourism') %></h3>
+
+        <video controls="controls" height="360" loop poster="http://res.cloudinary.com/jeremycartesse/video/upload/v1493239109/TourismVideo_fnrrsw.mp4.jpg" preload="none" style="margin: 0 auto;display: block" width="640">
+
+          <source src="http://res.cloudinary.com/jeremycartesse/video/upload/v1493239109/TourismVideo_fnrrsw.mp4" type="video/webm" />
+
+         <source src="http://res.cloudinary.com/jeremycartesse/video/upload/v1493239109/TourismVideo_fnrrsw.mp4" type="video/mp4" />
+
+        </video>
+        <br>
+        <br>
+        <h3><%= t('example_tourism') %></h3>
+        <p><%= t('example_day0') %></p>
+        <p><%= t('example_day1') %>
+          <a href="http://www.visitvalencia.com/fr/home?_ga=1.171113960.91591742.1485072101", >Valencia</a>
+        </p>
+        <p><%= t('example_day2') %></p>
+        <p><%= t('example_day3') %>
+          <a href="http://www.xativaturismo.com/castell-de-xativa/", >Xativa</a>
+      </div>
+    </div>
+  </div>
+</div>

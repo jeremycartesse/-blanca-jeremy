@@ -45,19 +45,16 @@
 </div>
 <!-- countdown starting -->
 <div class="wrapper-beige">
-  <div class="text-center">
-    <h4><%= t('annonce_title') %></h4>
-  </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-offset-4 col-sm-4 ">
+      <div class="col-sm-offset-4 col-sm-12 ">
         <div class="text-center">
           <ul style="list-style: none; float: left; padding-top: 0.5vh;">
             <li>
               <h4><%= t('countdown') %> :</h4>
             </li>
             <li>
-              <div id="getting-started"></div>
+              <div id="getting-started" style="color: #408395; font-weight: stronger; font-size: 1.5em;"></div></div>
               <% content_for(:after_js) do %>
               <script type="text/javascript">
               $('#getting-started').countdown('2017/07/22', function(event) {
@@ -70,7 +67,12 @@
         </div>
       </div>
     </div>
+    <div class="text-center">
+    <h4><%= t('annonce_title') %></h4>
+    <br>
   </div>
+  </div>
+
 </div>
 <!-- coutdown finished -->
 <!-- grid of the website  -->
@@ -135,4 +137,60 @@
         </div>
       </div>
     </div>
+    <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
+          <%= link_to wedding_path do %>
+          <%= image_tag "table.jpg", alt: "ceremony", class: "responsive img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent">
+          <h3><%= t('title_ceremony') %></h3>
+          <h6><%= t('text_ceremomy') %></h6>
+        </div>
+      </div>
+    </div>
+    <!-- end col -->
+    <!-- col -->
+    <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
+          <%= link_to musics_path do %>
+          <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent ">
+          <h3><%= t('title_music') %></h3>
+          <h6><%= t('text_music') %></h6>
+        </div>
+      </div>
+    </div>
+    <!-- end col -->
+    <!-- col -->
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
+          <%= link_to tourism_path do %>
+          <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent">
+          <h3><%= t('title_tourism') %></h3>
+          <h6><%= t('text_tourism') %></h6>
+        </div>
+      </div>
+    </div>
+    <!-- col -->
+    <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
+          <%= link_to contact_path do %>
+          <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent">
+          <h3><%= t('contact_title') %></h3>
+          <h6><%= t('contact_text') %></h6>
+        </div>
+      </div>
   </div>

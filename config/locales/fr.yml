@@ -22,13 +22,21 @@ fr:
   #Tourism_page
   title_tourism: "Tourisme"
   text_tourism: "Nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
-  countdown: "Temps restant avant le grand jour"
+  example_tourism: "Exemple de séjour (3 jours) :"
+  example_day0: "Jour arrivé : Arrivé à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
+  example_day1: "Jour 1 : Visiter la ville historique et sa cité des Arts et des
+Sciences :"
+  example_day2: "Jour 2 : Le samedi matin, récupérez votre voiture de location et résidez à l’hôtel Mont Sant pour la nuit du mariage."
+  example_day3: "Jour 3 : Le dimanche, visitez le château de Xàtiva et ces monuments historiques:"
+
+  countdown: "Nous nous marions dans "
   week: "sem : "
   day: "j : "
   hour: "h : "
   minute: "m :"
-  second: "s : "
+  second: "s  "
   gallery_title: "Gallerie"
+  comfirm_delete: "êtes-vous sûre de vouloir supprimer?"
 
   #wedding page
   church_name: "Iglesia de San Vicente Mártir"
@@ -105,6 +113,20 @@ fr:
 
   #transport_page
   transport_title: "Transport"
+  depart: "Arrivé"
+  return: "Retour"
+  place: "places"
+  transport_message: "Info covoiturage"
+  add_transport: "Proposer un covoiturage"
+  modify_transport: "Modifie ton covoiturage"
+  all_transport: "tous les covoiturages"
+  contact_details: "Mes coordonnées"
+  type_transport: "Voiture, Car, trotinette"
+  new_transport: "Écris ton annonce covoiturage"
+  my_transport: "Mes offres covoiturages"
+  validate: "Valider"
+
+
 
   #present_page
   present_title: "Cadeaux"

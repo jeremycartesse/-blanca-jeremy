@@ -1,2 +1,62 @@
-<h1>Transports#show</h1>
-<p>Find me in app/views/transports/show.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 " style="padding-top: 5vh; ">
+      <div>
+        <div class="row ">
+          <div class="col-xs-12 col-sm-12 col-md-12 text-center" >
+            <div style="padding-bottom: 25px;">
+              <% if @transport.user.photo_avatar? %>
+              <%= cl_image_tag @transport.user.photo_avatar.path,:style =>"border-radius: 50%; width: 150px; height: 150px; " %>
+              <% else %>
+              <%= image_tag "photo_avatar.jpg", :style =>"border-radius: 50%; width: 150px; height: 150px; " %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-xs-12 col-sm-12 col-md-12 text-center"" >
+            <div class="row ">
+              <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <div style="display: inline-flex;justify-content: space-around;">
+                  <div style="color:#408395 ;font-family: Quicksand; font-size: 35px;"><%= @transport.user.first_name %></div>
+                  <div style="color:#408395;font-family: Quicksand; font-size: 35px;font-weight: bolder; padding-left: 10px"><%= @transport.user.last_name %></div>
+                </div>
+              </div>
+              <div style="color:green;font-family: Quicksand; font-size: 25px; display: inline-flex;justify-content: space-around;">
+                <%= "+ " + t('depart') %>
+                <p style="padding-left: 25px;"><%= "+ " + t('return') %></p>
+              </div>
+              <br>
+              <div style="color:grey;font-family: Quicksand; font-size: 25px; display: inline-flex;justify-content: space-around;">
+                <%= "+ " +  @transport.depart %>
+                <p style="padding-left: 25px;"><%= "+ " +  @transport.return%></p>
+              </div>
+              <br>
+              <div style="color:grey;font-family: Quicksand; font-size: 25px; display: inline-flex;justify-content: space-around;">
+                <%= "+ " +  @transport.kind %>
+                <p style="padding-left: 25px;"><%= "+ " +  @transport.place_number %><%= t('place') %></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="col-xs-10 col-sm-10 col-md-10 text-justify col-xs-offset-1" style="font-family: Work Sans; font-size: 25px;color:grey; font-weight: bold">
+              <%=  @transport.t_message %>
+            </div>
+          </div>
+          <br>
+          <div class="text-center">
+          <% if @transport.user.id == current_user.id %>
+            <%= link_to(t('modify_transport'), edit_transport_path(current_user), class: "hvr-grow btn btn-medium") %>
+            <%= link_to(t('all_transport'), transports_path, class: "hvr-grow btn btn-medium") %>
+            <%= link_to(t('contact_details'), user_path(@transport.user.id), class: "hvr-grow btn btn-medium") %>
+            <% else %>
+            <%= link_to(t('all_transport'), transports_path, class: "hvr-grow btn btn-medium") %>
+            <%= link_to(t('contact_details'), user_path(@transport.user.id), class: "hvr-grow btn btn-blue") %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
