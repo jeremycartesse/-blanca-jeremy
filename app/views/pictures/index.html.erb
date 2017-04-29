@@ -26,7 +26,7 @@
                         <div class="bottom-card">
                           <div class="name_user-white">
                           <% if picture.user_id == current_user.id %>
-                         <%= link_to "D", picture_path(picture.id), class: "hvr-grow btn ", method: :delete, data: { confirm: "Are you sure?" } %>
+                         <%= link_to "", picture_path(picture.id), class: "hvr-grow fa fa-trash-o ", method: :delete, data: { confirm: "Are you sure?" } %>
                           <%= picture.user.first_name %> <%= picture.user.last_name %>
                               <% else %>
                               <%= picture.user.first_name %> <%= picture.user.last_name %>

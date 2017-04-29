@@ -28,7 +28,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12" style="margin-bottom: 3vh;">
           <%= link_to(t('transport_message'), transport_path(transport.id), class: "hvr-grow ", :style =>"background: none; border: none; outline: none;text-decoration:none; color: #005971; font-size: 20px;font-family: 'Work Sans'; font-weight: regular;") %>
             <% if transport.user_id == current_user.id %>
-               <%= link_to "", transport_path(transport.id), method: :delete, data: { confirm: t('comfirm_delete') }, class: "hvr-grow btn fa fa-trash-o " %>
+               <%= link_to "", transport_path(transport.id), method: :delete, data: { confirm: t('comfirm_delete') }, class: "hvr-grow  fa fa-trash-o " %>
            <% end %>
         </div>
       </div>
