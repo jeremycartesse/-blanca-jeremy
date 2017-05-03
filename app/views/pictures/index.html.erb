@@ -24,10 +24,10 @@
                           <%= cl_image_tag photo.path, :style =>" width: 250px; height: 250px;"%>
                         </div>
                         <div class="bottom-card">
-                          <div class="name_user-white">
+                          <div class="name_user-white_2">
                           <% if picture.user_id == current_user.id %>
-                         <%= link_to "", picture_path(picture.id), class: "hvr-grow fa fa-trash-o ", method: :delete, data: { confirm: "Are you sure?" } %>
                           <%= picture.user.first_name %> <%= picture.user.last_name %>
+                          <%= link_to "", picture_path(picture.id),  method: :delete, data: { confirm: "Are you sure?"}, class: "hvr-grow fa fa-trash-o " %>
                               <% else %>
                               <%= picture.user.first_name %> <%= picture.user.last_name %>
                             <% end %>

@@ -3,7 +3,7 @@ fr:
   date_wedding: "22 juillet 2017"
   title_ceremony: "Information mariage"
   text_ceremomy: " Toutes les informations"
-  annonce_title: "Bienvenue sur notre site de mariage, vous trouvez tous les renseignements nécessaires pour organiser votre venue.  Pour avoir accès aux informations, il suffit de vous inscrire. N’hésitez pas à remplir votre profil pour recevoir les dernières annonces et les nouveautés sur le site. Profitez pour découvrir les invités. Vous pouvez également partager des photos et les chansons que vous souhaiterez entendre durant le mariage. Bonne navigation."
+  annonce_title: "Bienvenue sur notre site de mariage, vous trouvez tous les renseignements nécessaires pour organiser votre venue. Il suffit juste de vous inscrire. Bonne navigation. "
 
   #footer
   enquire: "Renseignements"
@@ -12,7 +12,7 @@ fr:
 
   #music_page
   title_music: "Idée musique"
-  text_music: "Vous trouverez un espace qui vous permettra de nous faire partager la musique que vous souhaiterez écouter durant le mariage"
+  text_music: "Donner et paratager la musique que vous souhaiterez écouter durant le mariage"
   new_music_title: "Ajouter une chanson que vous souhaiterez entendre"
   add_music: "Ajouter une chanson"
   all_music: "Toutes les chansons"
@@ -23,14 +23,14 @@ fr:
 
   #Tourism_page
   title_tourism: "Tourisme"
-  text_tourism: "Nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
+  text_tourism: "Nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas à le consulter pour mieux préparer votre escapade en Espagne."
   example_tourism: "Exemple de séjour (3 jours) :"
   example_day0: "Jour arrivé : Arrivé à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
   example_day1: "Jour 1 : Visiter la ville historique et sa cité des Arts et des
 Sciences :"
   example_day2: "Jour 2 : Le samedi matin, récupérez votre voiture de location et résidez à l’hôtel Mont Sant pour la nuit du mariage."
   example_day3: "Jour 3 : Le dimanche, visitez le château de Xàtiva et ces monuments historiques:"
-  prepare_trip: "prépare ton voyage (site internet)"
+  prepare_trip: "prépare ton voyage (site touristique)"
 
   countdown: "Nous nous marions dans "
   week: "sem : "
@@ -56,7 +56,7 @@ Sciences :"
   advice_church: “La cérémonie commencera pour 18h30 , il est préférable d’arriver 15 minutes avant pour le placement de la famille et les amis.”
   lat_montsant: "40.395718"
   long_montsant: "-3.794666"
-  advice_montsant: “Le cocktail commencera à 20h30, Venez tôt pour profiter de chaque instant avec nous. ”
+  advice_montsant: “Le cocktail commencera à 20h30, Venez tôt pour profiter du couché du soleil et de chaque instant avec nous. ”
   church_monsant: "Il faut compter environ 30 minutes en voiture entre l’église et l’hôtel. Un grand parking sera mise à votre disposition."
   church_monsant_name: " Trajet en voiture Église - Hôtel "
 
@@ -107,7 +107,7 @@ Sciences :"
   signature_email3: "M   info@blanca-jeremy.com"
 
   #picture_page
-  gallery_title: "Gallerie"
+  gallery_title: "Galerie"
   gallery_text: "Visualisez et ajoutez des photos "
   new_picture: "Ajoute des photos que tu as de nous"
   all_picture: "Toutes les photos"
@@ -135,6 +135,9 @@ Sciences :"
   Iban: ""
   present_text: "Nous avons beaucoup voyager, mais seulement dans nos villes respectives pour pouvoir se retrouver. Maintenant que nous vivons ensemble, nous voulons voyager ensemble (pour une fois) pour découvrir de nouveaux pays. On souhaiterait partir au Japon pour notre lune de miel, N'hesitez pas à nous aider à réaliser ce futur beau voyage qui sera le départ de notre nouvelle vie de jeunes mariés."
 
+  #sf_information
+  sf_information_subject: "Sujet"
+  sf_information_message: "Message"
 
 
 

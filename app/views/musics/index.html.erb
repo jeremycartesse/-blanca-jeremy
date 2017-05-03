@@ -24,8 +24,8 @@
                       <div class="bottom-card">
                         <div class="name_user-white">
                          <% if music.user_id == current_user.id %>
-                          <%= link_to "", music_path(music.id), method: :delete, data: { confirm: t('comfirm_delete') }, class: "hvr-grow fa fa-trash-o "%>
                             <%= music.user.first_name %> <%= music.user.last_name %>
+                            <%= link_to "", music_path(music.id), method: :delete, data: { confirm: t('comfirm_delete') }, class: "hvr-grow fa fa-trash-o "%>
                         <% else %>
                           <%= music.user.first_name %> <%= music.user.last_name %>
                         <% end %>

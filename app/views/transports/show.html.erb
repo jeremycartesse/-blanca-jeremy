@@ -49,12 +49,13 @@
           <% if @transport.user.id == current_user.id %>
             <%= link_to(t('modify_transport'), edit_transport_path(current_user), class: "hvr-grow btn btn-medium") %>
             <%= link_to(t('all_transport'), transports_path, class: "hvr-grow btn btn-medium") %>
-            <%= link_to(t('contact_details'), user_path(@transport.user.id), class: "hvr-grow btn btn-medium") %>
+            <%= link_to(t('contact_details'), user_path(@transport.user.id), class: "hvr-grow btn btn-blue") %>
             <% else %>
             <%= link_to(t('all_transport'), transports_path, class: "hvr-grow btn btn-medium") %>
             <%= link_to(t('contact_details'), user_path(@transport.user.id), class: "hvr-grow btn btn-blue") %>
             <% end %>
           </div>
+          <br>
         </div>
       </div>
     </div>

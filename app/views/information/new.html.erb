@@ -13,8 +13,8 @@
 
     <%= simple_form_for(@information) do |f| %>
       <%= f.select :type_message, Information::TYPE_MESSAGE %>
-      <%= f.input :subjet %>
-      <%= f.input :message %>
+      <%= f.input :subjet ,label: t('sf_information_subject')%>
+      <%= f.input :message ,label: t('sf_information_message')%>
       <br>
       <br class="text-center">
       <%= f.submit t('validate'), class: "hvr-grow btn btn-medium" %>
