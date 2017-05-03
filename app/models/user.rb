@@ -13,8 +13,7 @@ class User < ApplicationRecord
   has_many :pictures
   has_many :transports
 
-
-
+  FAMILLE = ["Ami de Jérémy", "famille de Jérémy", "Amigos de Blanca", "Familia de Blanca"]
   NATIONALITY = ["française", "valencià", "Martiniquais"]
 
   private

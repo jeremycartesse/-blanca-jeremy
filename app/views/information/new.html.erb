@@ -1,16 +1,23 @@
-<h1 class="text-center" ><%= t('new_information_title') %></h1>
 <br>
+<div class="text-center">
+  <%= link_to(t("contact") , contact_path, class: "hvr-grow btn btn-medium") %>
+  <br>
+  <br>
+</div>
+<div class="wrapper-beige">
+  <h1 class="text-center" ><%= t('new_information_title') %></h1>
+</div>
 <br>
 <div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
   <div class="row">
 
     <%= simple_form_for(@information) do |f| %>
       <%= f.select :type_message, Information::TYPE_MESSAGE %>
-      <%= f.input :subjet %>
-      <%= f.input :message %>
+      <%= f.input :subjet ,label: t('sf_information_subject')%>
+      <%= f.input :message ,label: t('sf_information_message')%>
       <br>
       <br class="text-center">
-      <%= f.submit "Valider" %>
+      <%= f.submit t('validate'), class: "hvr-grow btn btn-medium" %>
     <% end %>
     <br>
   </div>

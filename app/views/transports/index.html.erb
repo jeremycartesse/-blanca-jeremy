@@ -1,26 +1,45 @@
-
 <br>
 <div class="text-center">
-  <%= link_to(t("send_information") , new_transport_path, class: "hvr-grow btn btn-medium") %>
+  <%= link_to(t("add_transport") , new_transport_path, class: "hvr-grow btn btn-medium") %>
   <br>
   <br>
 </div>
 <div class="wrapper-beige">
-  <h2 class="text-center" ><%= t('new_music_title') %></h2>
-</div>
-<br>
-<br>
-<div class="container music">
-  <div class="row">
-
-    <% @transports.each do |transport| %>
-      <%= transport.depart %>
-      <%= transport.return %>
-      <%= transport.kind %>
-      <%= transport.t_message %>
-      <%= transport.place_number %>
-
-    <% end %>
+  <div class="container">
+  <br>
     <br>
+    <% @transports.each do  |transport| %>
+    <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12" style="margin-bottom: 2vh;">
+          <% if transport.user.photo_avatar? %>
+            <%= cl_image_tag transport.user.photo_avatar.path,:style =>"border-radius: 50%; width: 150px; height: 150px; " %>
+          <% else %>
+          <%= image_tag "photo_avatar.jpg", :style =>"border-radius: 50%; width: 150px; height: 150px; " %>
+          <% end %>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12" style="font-family: Quicksand;font-size: 25px;">
+        <h5><%= t('depart') %> : <%= transport.depart %></h5>
+        <h5><%= t('retour') %> : <%= transport.depart %></h5>
+        <h5><%= transport.kind %> : <%= transport.place_number %> <%= t('place') %></h5>
+          <%=  transport.user.first_name %>
+          <%=  transport.user.last_name %>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12" style="margin-bottom: 3vh;">
+          <%= link_to(t('transport_message'), transport_path(transport.id), class: "hvr-grow ", :style =>"background: none; border: none; outline: none;text-decoration:none; color: #005971; font-size: 20px;font-family: 'Work Sans'; font-weight: regular;") %>
+            <% if transport.user_id == current_user.id %>
+               <%= link_to "", transport_path(transport.id), method: :delete, data: { confirm: t('comfirm_delete') }, class: "hvr-grow  fa fa-trash-o " %>
+           <% end %>
+        </div>
+      </div>
+    </div>
+    <% end %>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </div>
+
+

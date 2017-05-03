@@ -35,6 +35,9 @@ class TransportsController < ApplicationController
   end
 
   def destroy
+    @transport = Transport.find(params[:id])
+    @transport.destroy
+    redirect_to transports_path
   end
 
   def transport_params

@@ -11,6 +11,19 @@
   text-decoration: none;
   color: #999999;
 }
+.btn-blue {
+  color: #005971;
+  border: 1px solid #005971;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.btn-blue:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #005971;
+}
 .bouton_nom {
   font-family: Quicksand;
   font-size: 20px;

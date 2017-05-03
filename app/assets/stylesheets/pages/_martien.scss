@@ -61,11 +61,23 @@
 .name_user-white {
   z-index: 5;
   position:relative;
-  left: -50px;
+  left: -10px;
   top: 10px;
   float: right;
   color:white;
   font-family: Work Sans;
   letter-spacing: 1px;
   font-size: 22px;
+}
+
+.name_user-white_2 {
+  z-index: 5;
+  position:relative;
+  left: -10px;
+  top: 10px;
+  float: right;
+  color:white;
+  font-family: Work Sans;
+  letter-spacing: 1px;
+  font-size: 15px;
 }

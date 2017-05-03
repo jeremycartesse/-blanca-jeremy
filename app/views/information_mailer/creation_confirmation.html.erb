@@ -1,10 +1,9 @@
-<h1>Information#creation_confirmation</h1>
+<p><%= @information.subjet%></p>
 
 <p><%= @information.message %></p>
 <br>
 <br>
-<br>
-<p><%= @information.user.first_name %></p> <p><%= @information.user.last_name %></p>
+<p><%= @information.user.first_name %> <%= @information.user.last_name %></p>
 
 <p><%= @information.user.email %></p>
 

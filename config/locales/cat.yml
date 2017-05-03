@@ -1,32 +1,142 @@
 cat:
-    date_wedding: "22 julliol 2017"
-    title_ceremony: "Cérémonie du mariage"
-    text_ceremomy: "vous trouverez toutes les informations sur le deroulement et la localisation de l'église"
-    # Music page
-    title_music: "Idée musique"
-    text_music: "vous trouverez un espace qui vous permettra de nous faire partager la musique que vous souhaiterez écouter durant le mariage"
-    new_music_title: "afegeix la música"
-    # Tourism page
-    title_tourism: "tourisme"
-    text_tourism: "nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
-    countdown: "temps restant avant le grand jour"
-    week: "sem : "
-    day: "d : "
-    hour: "h : "
-    minute: "m :"
-    second: "s : "
+  #home_page
+  date_wedding: "22 de juliol 2017"
+  title_ceremony: "Informació"
+  text_ceremomy: " Tota la informació"
+  annonce_title: "Benvinguts a la nostra pàgina web. Per a tindre accés a la informació deveu inscriure-vos.Podreu descobrir la resta de convidats, compartir fotos i indicar la música que vos agradaria escoltar durant el nostre enllaç."
+
+  #footer
+  enquire: "Informació"
+  contact_us: "Contacteu-nos"
+  follow_us: "Seguiu-nos"
+
+  #music_page
+  title_music: "Idees per a la música"
+  text_music: "Trobareu un espai que vos permetrà compartir la música que vos agradaria escolar durant la celebració"
+  new_music_title: "Afegir una cançó que t'agradaria escoltar"
+  add_music: "Afegir una cançó"
+  all_music: "Totes les cançóns"
+
+  #user_pages
+  edit_user: "Modificar el meu perfil"
+  all_user: "Tots els convidats"
+
+  #Tourism_page
+  title_tourism: "Turisme"
+  text_tourism: "Nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
+  example_tourism: "Exemple de séjour (3 jours) :"
+  example_day0: "Jour arrivé : Arrivé à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
+  example_day1: "Jour 1 : Visiter la ville historique et sa cité des Arts et des
+Sciences :"
+  example_day2: "Jour 2 : Le samedi matin, récupérez votre voiture de location et résidez à l’hôtel Mont Sant pour la nuit du mariage."
+  example_day3: "Jour 3 : Le dimanche, visitez le château de Xàtiva et ces monuments historiques:"
+  prepare_trip: "prépare ton voyage (site internet)"
+
+  countdown: "Ens casem en"
+  week: "sem : "
+  day: "d : "
+  hour: "h : "
+  minute: "m :"
+  second: "s  "
+
+  comfirm_delete: "Estàs segur d'ho voler eliminar?"
+
+  #wedding page
+  church_name: "Església de Sant Vicent Màrtir"
+  church_address: "Carrer Major,s/n, 46610 Guadassuar, València"
+  church_time: "Cerimònia 18h30"
+  hotel_name: "Hotel Montsant"
+  hotel_address: "Pujada al castell de Xàtiva, s/n.46800 Xàtiva, València"
+  hotel_time: "previst per a les 20h30"
+  gps_title: Coordenades GPS
+  latitude_name: "Latitud"
+  longitude_name: "  Longitud"
+  lat_church: "39.1856229"
+  long_church:  " -0.47822"
+  advice_church: “La cerimònia començarà a les 18h30”
+  lat_montsant: "40.395718"
+  long_montsant: "-3.794666"
+  advice_montsant: “El còctel commençarà a les 20h30. ”
+  church_monsant: "La distància entre l'església i l'hotel és de 30 minuts en cotxe. A l'hotel hi ha un parking a la votra disposició."
+  church_monsant_name: " Trajecte en cotxe Església - Hotel "
+
+  #invited_page
+  invited: "Convidats"
+  invited_text: "Coneix altres convidats"
+  more_details: "Més informació"
+  modify_profil: "Modifica i completa el teu perfil"
+  nationality: "Nacionalitat"
+
+  #simple_form
+  sf_first_name: "Nom:"
+  sf_last_name: "Cognom"
+  sf_phone_number: "Telèfon"
+  sf_description: "Descriu-te ràpidament"
+  sf_photo_avatar: "Foto"
+  sf_name_music: "Nom de la cançó"
+  sf_youtube_link: "Link Youtube"
+
+  #contact_page
+  contact_title: "Contacte"
+  contact_text: "No dubteu en contactar-nos"
+  contact_two_name: "Blanca i Jérémy"
+  contact_two_phone: " (+33)6 99 11 73 95 / (+33)6 44 23 49 13"
+  contact_email: "info@blanca-jeremy.com"
+
+  contact_name_blanca: "Blanca Valero Meseguer"
+  contact_name_jeremy: "Jérémy CARTESSE"
+  address_france: "Appartement 25, Résidence Carré des Arts, 220 avenue de Pérouse, 13090 Aix-en-Provence"
+  address_spain: "Cristo de la Peña, 33, 46610 Guadassuar"
+  address_martinique: "Habitation Calvette, 97215 Rivière Salée Martinique"
+  contact_mum_blanca: "Rosa Meseguer Calatayud"
+  contact_mum_blanca_telephone: "+34 654 586 388"
+  contact_mum_jeremy: "Roseline Edmond"
+  contact_mum_jeremy_telephone: "+596 696 25 86 05"
+  send_information: "enviar un missatge"
+  new_information_title: "escriu la teua pregunta "
 
 
-# wedding page
-    church_name: "Església de Sant Vicent Mártir"
-    church_address: "Carrer Major,s/n, 46610 Guadassuar"
-    church_time: "18h30"
-    hotel_name: "Hotel Montsant"
-    hotel_address: "Pujada al Castell de Xàtiva, s/n.46800 Xàtiva"
-    hotel_time: "20h30"
+  #welcome_user_email
+  subject_welcome: "Benvinguts a la pàgina web Blanca-Jeremy"
+  welcome_message1: "Benvingut! L'inscripció s'ha efectuat correctament. A la nostra pàgina podràs trobar tot el que necessites i si tens alguna pregunta no dubtes en contactar-nosNous te confirmons que tu viens de faire la plus belle chose de ta vie, tu t’es inscrit sur notre site du mariage ;)."
+  welcome_message2: "No t'oblides de completar el teu perfil"
+  welcome_message3:
+  welcome_message4: "Un abraç ben fort,"
+  signature_email: "Blanca i Jérémy"
+  signature_email2: "T   06 99 11 73 95 /06 44 23 49 13"
+  signature_email3: "M   info@blanca-jeremy.com"
+
+  #picture_page
+  gallery_title: "Galeria"
+  gallery_text: "Visualisez et ajoutez des photos "
+  new_picture: "Ajoute des photos que tu as de nous"
+  all_picture: "Totes les fotos"
+  add_new_picture: "Afegir fotos"
+
+  #transport_page
+  transport_title: "Transport"
+  depart: "Arrivada"
+  return: "Tornada"
+  place: "llocs"
+  transport_message: "Informació compartir cotxe"
+  add_transport: "Proposar compartir cotxe"
+  modify_transport: "Mofificar"
+  all_transport: "Compartir el cotxe"
+  contact_details: "Les meues coordenades"
+  type_transport: "Voiture, Car, trotinette"
+  new_transport: "Escriu el teu anunci per a compartir cotxe"
+  my_transport: "Les meues ofertes per a compartir"
+  validate: "Validar"
 
 
+  #present_page
+  present_title: "Lluna de mel"
+  present_home: "Ens agradaria viatjar"
+  Iban: ""
+  present_text: "Hem viatjat molt, però majoritàriament per a poder vorens. El nostre objectiu es viatjar i descobrir nous paisos junts"
 
-    # tourism
-    invited_space: "ivi"
+  #sf_information
+  sf_information_subject: "Sujet"
+  sf_information_message: "Message"
+
 

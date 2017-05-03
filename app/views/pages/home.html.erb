@@ -1,32 +1,42 @@
+
 <div class="responsive img-responsive">
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: relative; top: 5vh; width: 100%; height: 110vh;overflow: hidden;">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: relative; top: 5vh; width: 100%; height: 90vh;overflow: hidden;">
     <!-- Indicators -->
     <ol class="carousel-indicators ">
+    <br>
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner center-block" role="listbox" >
       <div class="item active">
-        <%= image_tag "table.jpg", width:"100%"%>
+        <%= image_tag "DSC04323_DxO-1.jpg", width:"100%"%>
         <div class="carousel-caption">
-          <h3>Flowers coco</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <h3>Martinique</h3>
+          <p>The day of asking</p>
         </div>
       </div>
       <div class="item">
-        <%= image_tag "table.jpg", width:"100%" %>
+        <%= image_tag "DSC02418.JPG", width:"100%" %>
         <div class="carousel-caption">
-          <h3>Flowers 2</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <h3>Madrid</h3>
+          <p>Parque del Retiro</p>
         </div>
       </div>
       <div class="item">
-        <%= image_tag "table.jpg", width:"100%"%>
+        <%= image_tag "DSC02670.JPG", width:"100%"%>
         <div class="carousel-caption">
-          <h3>Flowers 3</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <h3>Benidorm</h3>
+          <p>Beach</p>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag "DSC03619.JPG", width:"100%"%>
+        <div class="carousel-caption">
+          <h3>France</h3>
+          <p>Château de Versailles</p>
         </div>
       </div>
     </div>
@@ -44,19 +54,16 @@
 </div>
 <!-- countdown starting -->
 <div class="wrapper-beige">
-  <div class="text-center">
-    <h4><%= t('annonce_title') %></h4>
-  </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-offset-4 col-sm-4 ">
+      <div class="col-sm-offset-4 col-sm-12 ">
         <div class="text-center">
           <ul style="list-style: none; float: left; padding-top: 0.5vh;">
             <li>
               <h4><%= t('countdown') %> :</h4>
             </li>
             <li>
-              <div id="getting-started"></div>
+              <div id="getting-started" style="color: #408395; font-weight: stronger; font-size: 1.5em;"></div></div>
               <% content_for(:after_js) do %>
               <script type="text/javascript">
               $('#getting-started').countdown('2017/07/22', function(event) {
@@ -69,7 +76,12 @@
         </div>
       </div>
     </div>
+    <div class="text-center">
+    <h4><%= t('annonce_title') %></h4>
+    <br>
   </div>
+  </div>
+
 </div>
 <!-- coutdown finished -->
 <!-- grid of the website  -->
@@ -81,7 +93,7 @@
       <div class="hovercontainer">
         <figure>
           <%= link_to wedding_path do %>
-          <%= image_tag "table.jpg", alt: "ceremony", class: "responsive img-responsive"%>
+          <%= image_tag "DSC04323_DxO-1.jpg", alt: "ceremony", class: "responsive img-responsive"%>
           <% end %>
         </figure>
         <div class="hovercontent">
@@ -96,7 +108,7 @@
       <div class="hovercontainer">
         <figure>
           <%= link_to musics_path do %>
-          <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
+          <%= image_tag "DSC02627.JPG", alt: "ceremony", class: "img-responsive"%>
           <% end %>
         </figure>
         <div class="hovercontent ">
@@ -111,7 +123,7 @@
       <div class="hovercontainer">
         <figure>
           <%= link_to tourism_path do %>
-          <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
+          <%= image_tag "DSC02670.JPG", alt: "ceremony", class: "img-responsive"%>
           <% end %>
         </figure>
         <div class="hovercontent">
@@ -124,8 +136,65 @@
     <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6 ">
       <div class="hovercontainer">
         <figure>
+          <%= link_to users_path do %>
+          <%= image_tag "DSC03657.JPG", alt: "ceremony", class: "img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent">
+          <h3><%= t('invited') %></h3>
+          <h6><%= t('invited_text') %></h6>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
+          <%= link_to transports_path do %>
+          <%= image_tag "DSC04014.JPG", alt: "ceremony", class: "responsive img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent">
+          <h3><%= t('transport_title') %></h3>
+          <h6><%= t('add_transport') %></h6>
+        </div>
+      </div>
+    </div>
+    <!-- end col -->
+    <!-- col -->
+    <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
+          <%= link_to pictures_path do %>
+          <%= image_tag "DSC04664.JPG", alt: "ceremony", class: "img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent ">
+          <h3><%= t('gallery_title') %></h3>
+          <h6><%= t('gallery_text') %></h6>
+        </div>
+      </div>
+    </div>
+    <!-- end col -->
+    <!-- col -->
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
+          <%= link_to present_path do %>
+          <%= image_tag "DSC03516.JPG", alt: "ceremony", class: "img-responsive"%>
+          <% end %>
+        </figure>
+        <div class="hovercontent">
+          <h3><%= t('present_title') %></h3>
+          <h6><%= t('present_home') %></h6>
+        </div>
+      </div>
+    </div>
+    <!-- col -->
+    <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6 ">
+      <div class="hovercontainer">
+        <figure>
           <%= link_to contact_path do %>
-          <%= image_tag "table.jpg", alt: "ceremony", class: "img-responsive"%>
+          <%= image_tag "DSC03655.JPG", alt: "ceremony", class: "img-responsive"%>
           <% end %>
         </figure>
         <div class="hovercontent">
@@ -133,5 +202,4 @@
           <h6><%= t('contact_text') %></h6>
         </div>
       </div>
-    </div>
   </div>

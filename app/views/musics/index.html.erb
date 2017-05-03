@@ -23,11 +23,17 @@
                       </a>
                       <div class="bottom-card">
                         <div class="name_user-white">
-                          <%= link_to "D", music_path(music.id), class: "hvr-grow btn ", method: :delete, data: { confirm: "Are you sure?" } %>
+                         <% if music.user_id == current_user.id %>
+                            <%= music.user.first_name %> <%= music.user.last_name %>
+                            <%= link_to "", music_path(music.id), method: :delete, data: { confirm: t('comfirm_delete') }, class: "hvr-grow fa fa-trash-o "%>
+                        <% else %>
                           <%= music.user.first_name %> <%= music.user.last_name %>
+                        <% end %>
                         </div>
                         <div class="card-avatar">
-                          <%= image_tag "table.jpg", width: "100%" %>
+                          <% if music.user.photo_avatar.present? %>
+                              <%= cl_image_tag music.user.photo_avatar.path,:style =>" width: 100% " %>
+                            <% end %>
                         </div>
                       </div>
                     </div>

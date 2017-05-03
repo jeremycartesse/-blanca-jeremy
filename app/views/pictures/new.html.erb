@@ -1,4 +1,9 @@
-
+<br>
+<div class="text-center">
+  <%= link_to(t("all_picture"), pictures_path, class: "hvr-grow btn btn-medium" )%>
+  <br>
+  <br>
+</div>
 <h1 class="text-center" ><%= t('new_picture') %></h1>
 <br>
 <br>
@@ -10,7 +15,7 @@
     <br>
     <br>
     <br class="text-center">
-    <%= f.submit "Valider", class: "btn btn-medium" %>
+    <%= f.submit t('validate'), class: "btn btn-medium" %>
     <% end %>
     <br>
     <br>
