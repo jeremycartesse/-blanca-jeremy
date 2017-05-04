@@ -65,13 +65,13 @@ Sciences :"
   #wedding page
   church_name: "Iglesia de San Vicente Mártir"
   church_address: "Calle Mayor,s/n, 46610 Guadassuar, Valencia, Espagne"
-  church_time: "Prévu pour 18h30"
+  church_time: " 18h30"
   hotel_name: "Hôtel Montsant"
   hotel_address: "Subida al Castillo de Xàtiva, s/n.46800 Xàtiva, Valencia, Espagne"
-  hotel_time: "prévu pour 20h30"
+  hotel_time: "20h30"
   gps_title: Coordonnee GPS
-  latitude_name: "Latitude"
-  longitude_name: "  Longitude"
+  latitude_name: "Latitud"
+  longitude_name: "  Longitud"
   lat_church: "39.1856229"
   long_church:  " -0.47822"
   advice_church: “La cérémonie commencera pour 18h30 , il est préférable d’arriver 15 minutes avant pour le placement de la famille et les amis.”
