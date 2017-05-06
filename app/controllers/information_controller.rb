@@ -10,6 +10,7 @@ class InformationController < ApplicationController
     @information.user_id = current_user.id
     if @information.save
       InformationMailer.creation_confirmation(@information).deliver_now
+      InformationMailer.sending_confirmation(@information).deliver_now
       redirect_to contact_path
     else
       render :new

@@ -5,10 +5,10 @@
     <meta property="og:url" content="<%= root_url %>">
     <meta property="og:type" content="website">
     <meta property="og:image" content="<%= image_url "logo.png"%>">
-    <meta property="og:description" content="Blanca-Jeremy - We create this website for ours invited">
+    <meta property="og:description" content="Blanca-Jeremy - We create this website for you">
     <meta property="og:site_name" content="Blanca-Jeremy"/>
     <link rel="icon" type="image/png" href="<%= image_url "logo.png"%>" />
-    <title>Blanca-Jeremy - We create this website for ours invited</title>
+    <title>Blanca-Jeremy - We create this website for you</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +23,7 @@
     <%= javascript_include_tag "https://maps.google.com/maps/api/js" %>
     <%= javascript_include_tag "https://cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/markerclusterer/src/markerclusterer_compiled.js" %>
     <%= javascript_include_tag "https://cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js" %>
+
     <%= javascript_include_tag 'application' %>
     <%= cloudinary_js_config %>
     <%= yield(:after_js) %>
