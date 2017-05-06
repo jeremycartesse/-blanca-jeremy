@@ -11,7 +11,16 @@ class InformationMailer < ApplicationMailer
     mail(
       to:       "info@blanca-jeremy.com",
       subject:  "information"
+    )
+  end
+
+  def sending_confirmation(information)
+    @information = information
+    mail(
+      to:       @information.user.email,
+      subject:  "confirmation of sending"
 
     )
+
   end
 end
