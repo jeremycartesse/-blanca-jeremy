@@ -29,7 +29,13 @@ cat:
   example_day1: ""
   example_day2: ""
   example_day3: ""
-  prepare_trip: ""
+  prepare_trip: "Prepara el teu Viatge"
+  tourism_link_name1: ""
+  tourism_link_name2: ""
+  tourism_link_name3: "Vacances Espagne (Valencia)"
+  tourism_link_name4: "Routard Valencia"
+  tourism_link_name5: "Valence-Espagne"
+  tourism_link_name6: "What Valencia"
 
   countdown: "Ens casem en"
   week: "sem : "
@@ -99,8 +105,8 @@ cat:
   #welcome_user_email
   subject_welcome: "Benvinguts a la pàgina web Blanca-Jeremy"
   welcome_message1: "Benvingut! L'inscripció s'ha efectuat correctament. A la nostra pàgina podràs trobar tot el que necessites, si tens alguna pregunta no dubtes en contactar-nos."
-  welcome_message2: "No t'oblides de completar el teu perfil"
-  welcome_message3: ""
+  welcome_message2: ""
+  welcome_message3: "No t'oblides de completar el teu perfil"
   welcome_message4: "Un abraç ben fort,"
   signature_email: "Blanca i Jérémy"
   signature_email2: "T   06 99 11 73 95 /06 44 23 49 13"
@@ -143,6 +149,8 @@ cat:
   sf_information_message: "Missatge"
   confimation_message1: "Hem rebut el teu missatge. Et contestarem el més prompte possible.  "
   hello: "Hola"
+
+  #devise_connexion
   login: "Connexió"
   log_out: "Desconnexió"
   profile: "Perfil"
@@ -151,6 +159,8 @@ cat:
   password: "Contrasenya"
   remember_me: "Mantindre la sessió iniciada"
   password_confirmation: "Confirma la teua contrasenya"
+
+
 
 
 

@@ -18,7 +18,7 @@ class InformationMailer < ApplicationMailer
     @information = information
     mail(
       to:       @information.user.email,
-      subject:  "confirmation of sending"
+      subject:  "Confirmation"
     )
 
   end

@@ -12,7 +12,7 @@ fr:
 
   #music_page
   title_music: "Idée musique"
-  text_music: "Donner et paratager la musique que vous souhaiterez écouter durant le mariage"
+  text_music: "Donner et partager la musique que vous souhaiterez écouter durant le mariage"
   new_music_title: "Ajouter une chanson que vous souhaiterez entendre"
   add_music: "Ajouter une chanson"
   all_music: "Toutes les chansons"
@@ -23,7 +23,7 @@ fr:
 
   #Tourism_page
   title_tourism: "Tourisme"
-  text_tourism: "Nous avons rassemblé quelques idées et choses à faire dans la région, n'hesitez pas à le consulter pour mieux préparer votre escapade en Espagne."
+  text_tourism: "Nous avons rassemblé quelques idées et choses à faire dans la région, n'hesitez pas à le consulter pour mieux préparer votre escapade en Espagne"
   example_tourism: "Exemple de séjour (3 jours) :"
   example_day0: "Jour arrivé : Arrivé à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
   example_day1: "Jour 1 : Visiter la ville historique et sa cité des Arts et des
@@ -31,6 +31,12 @@ Sciences :"
   example_day2: "Jour 2 : Le samedi matin, récupérez votre voiture de location et résidez à l’hôtel Mont Sant pour la nuit du mariage."
   example_day3: "Jour 3 : Le dimanche, visitez le château de Xàtiva et ces monuments historiques:"
   prepare_trip: "prépare ton voyage (site touristique)"
+  tourism_link_name1: "Valencia."
+  tourism_link_name2: "Xàtiva."
+  tourism_link_name3: "Vacances Espagne (Valencia)"
+  tourism_link_name4: "Routard Valencia"
+  tourism_link_name5: "Valence-Espagne"
+  tourism_link_name6: "What Valencia"
 
   countdown: "Nous nous marions dans "
   week: "sem : "
@@ -39,7 +45,7 @@ Sciences :"
   minute: "m :"
   second: "s  "
 
-  comfirm_delete: "êtes-vous sûre de vouloir supprimer?"
+  comfirm_delete: "Êtes-vous sûre de vouloir supprimer?"
 
   #wedding page
   church_name: "Iglesia de San Vicente Mártir"
@@ -93,8 +99,8 @@ Sciences :"
   contact_mum_blanca_telephone: "+34 654 586 388"
   contact_mum_jeremy: "Roseline Edmond"
   contact_mum_jeremy_telephone: "+596 696 25 86 05"
-  send_information: "envoyer un message"
-  new_information_title: "écris nous ta demande"
+  send_information: "Envoyer un message"
+  new_information_title: "Écris nous ta demande"
 
 
   #welcome_user_email
@@ -110,12 +116,12 @@ Sciences :"
   #picture_page
   gallery_title: "Galerie"
   gallery_text: "Visualisez et ajoutez des photos "
-  new_picture: "Ajoute des photos que tu as de nous"
+  new_picture: "Ajoute vos belles photos "
   number_picture: "Un maximum de 10 photos par ajout"
   all_picture: "Toutes les photos"
   add_new_picture: "Ajouter une photo"
-  sf_name_picture: "Nom de ou des photos"
-  sf_picture_name: "télécharger vos photos ici"
+  sf_name_picture: "Donner un titre aux photos"
+  sf_picture_name: "Télécharger vos photos ici"
 
   #transport_page
   transport_title: "Transport"
@@ -125,7 +131,7 @@ Sciences :"
   transport_message: "Info covoiturage"
   add_transport: "Proposer un covoiturage"
   modify_transport: "Modifie ton covoiturage"
-  all_transport: "tous les covoiturages"
+  all_transport: "Tous les covoiturages"
   contact_details: "Mes coordonnées"
   type_transport: "Voiture, Car, trotinette"
   new_transport: "Écris ton annonce covoiturage"
@@ -144,6 +150,8 @@ Sciences :"
   sf_information_message: "Message"
   confimation_message1: "Nous avons bien reçu ton message. On te répondra sous peu par email.  "
   hello: "Bonjour "
+
+  #devise_connexion
   login: "Connexion"
   log_out: "Déconnexion"
   profile: "Profil"
@@ -152,6 +160,9 @@ Sciences :"
   password: "Mot de passe"
   remember_me: "Maintenir ma session"
   password_confirmation: "Confirmer votre mot de passe"
+
+
+
 
 
 
