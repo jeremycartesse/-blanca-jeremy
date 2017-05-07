@@ -1,15 +1,17 @@
-<h2>Log in</h2>
-
+<br>
+<h2 class="text-center"><%= t('login')%></h2>
+<div class="container music">
 <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="form-inputs">
-    <%= f.input :email, required: false, autofocus: true %>
-    <%= f.input :password, required: false %>
-    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
-  </div>
+    <div class="form-inputs">
+      <%= f.input :email, required: false, label: t('sf_email'), autofocus: true %>
+      <%= f.input :password, required: false, label: t('password') %>
+      <%= f.input :remember_me, label: t('remember_me'), as: :boolean if devise_mapping.rememberable? %>
+    </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, "Log in" %>
+    <div class="form-actions">
+      <%= f.button :submit, t('login'), class: "hvr-grow btn btn-medium" %>
+    </div>
+  <% end %>
   </div>
-<% end %>
 
 <%= render "devise/shared/links" %>

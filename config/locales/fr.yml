@@ -3,7 +3,7 @@ fr:
   date_wedding: "22 juillet 2017"
   title_ceremony: "Information mariage"
   text_ceremomy: " Toutes les informations"
-  annonce_title: "Bienvenue sur notre site de mariage, vous trouvez tous les renseignements nécessaires pour organiser votre venue. Il suffit juste de vous inscrire. Bonne navigation. "
+  annonce_title: "Bienvenue sur notre site de mariage, vous trouverez tous les renseignements nécessaires pour organiser votre venue. Il suffit juste de vous inscrire. Bonne navigation. "
 
   #footer
   enquire: "Renseignements"
@@ -23,7 +23,7 @@ fr:
 
   #Tourism_page
   title_tourism: "Tourisme"
-  text_tourism: "Nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas à le consulter pour mieux préparer votre escapade en Espagne."
+  text_tourism: "Nous avons rassemblé quelques idées et choses à faire dans la région, n'hesitez pas à le consulter pour mieux préparer votre escapade en Espagne."
   example_tourism: "Exemple de séjour (3 jours) :"
   example_day0: "Jour arrivé : Arrivé à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
   example_day1: "Jour 1 : Visiter la ville historique et sa cité des Arts et des
@@ -68,10 +68,11 @@ Sciences :"
   nationality: "Nationalité"
 
   #simple_form
-  sf_first_name: "Prénom:"
+  sf_first_name: "Prénom"
   sf_last_name: "Nom de famille"
-  sf_phone_number: "Téléphone"
+  sf_phone_number: "Téléphone portable"
   sf_description: "Écris une rapide description de toi"
+  sf_email: "Email"
   sf_photo_avatar: "Photo Avatar"
   sf_name_music: "Nom de la chanson"
   sf_youtube_link: "Lien Youtube"
@@ -110,8 +111,11 @@ Sciences :"
   gallery_title: "Galerie"
   gallery_text: "Visualisez et ajoutez des photos "
   new_picture: "Ajoute des photos que tu as de nous"
+  number_picture: "Un maximum de 10 photos par ajout"
   all_picture: "Toutes les photos"
   add_new_picture: "Ajouter une photo"
+  sf_name_picture: "Nom de ou des photos"
+  sf_picture_name: "télécharger vos photos ici"
 
   #transport_page
   transport_title: "Transport"
@@ -138,8 +142,16 @@ Sciences :"
   #sf_information
   sf_information_subject: "Sujet"
   sf_information_message: "Message"
-  confimation_message1: "Nous avons bien reçu ton message. On te répondra sous peu. Prends soin de toi "
+  confimation_message1: "Nous avons bien reçu ton message. On te répondra sous peu par email.  "
   hello: "Bonjour "
+  login: "Connexion"
+  log_out: "Déconnexion"
+  profile: "Profil"
+  sign_up: "Créer un compte"
+  Forgot_your_password?: "Mot de passe oublié?"
+  password: "Mot de passe"
+  remember_me: "Maintenir ma session"
+  password_confirmation: "Confirmer votre mot de passe"
 
 
 

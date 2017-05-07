@@ -17,8 +17,11 @@ require "attachinary/orm/active_record"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
 module BlancaJeremy
   class Application < Rails::Application
+    config.i18n.default_locale = :fr
+
     config.generators do |generate|
       generate.assets false
     end
@@ -27,4 +30,6 @@ module BlancaJeremy
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
   end
+
 end
+
