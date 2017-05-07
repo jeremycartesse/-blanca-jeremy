@@ -1,19 +1,22 @@
-<h2>Sign up</h2>
+<br>
+<h2 class="text-center"><%= t('sign_up')%></h2>
 
+<div class="container music">
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= f.error_notification %>
+    <%= f.error_notification %>
 
-  <div class="form-inputs">
-    <%= f.input :email, required: true, autofocus: true %>
-    <%= f.input :first_name, required: true, autofocus: true %>
-    <%= f.input :last_name, required: true, autofocus: true %>
-    <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
-    <%= f.input :password_confirmation, required: true %>
-  </div>
+    <div class="form-inputs">
+      <%= f.input :email, required: true, label: t('sf_email'), autofocus: true %>
+      <%= f.input :first_name, label: t('sf_first_name'), required: true, autofocus: true %>
+      <%= f.input :last_name, label: t('sf_last_name'), required: true, autofocus: true %>
+      <%= f.input :password,  label: t('password'), required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
+      <%= f.input :password_confirmation, label: t('password_confirmation'), required: true %>
+    </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, "Sign up" %>
-  </div>
-<% end %>
+    <div class="form-actions">
+      <%= f.button :submit, t("sign_up"), class: "hvr-grow btn btn-medium" %>
+    </div>
+  <% end %>
+</div>
 
 <%= render "devise/shared/links" %>

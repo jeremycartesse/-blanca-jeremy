@@ -13,7 +13,7 @@ cat:
   #music_page
   title_music: "Idees per a la música"
   text_music: "Trobareu un espai que vos permetrà compartir la música que vos agradaria escolar durant la celebració"
-  new_music_title: "Afegir una cançó que t'agradaria escoltar"
+  new_music_title: "afegeix una cançó que t'agradaria escoltar"
   add_music: "Afegir una cançó"
   all_music: "Totes les cançóns"
 
@@ -23,14 +23,13 @@ cat:
 
   #Tourism_page
   title_tourism: "Turisme"
-  text_tourism: "Nous avons rassembler quelques idées et choses à faire dans la région, n'hesitez pas a le consulter pour mieux préparer votre escapade en Espagne"
-  example_tourism: "Exemple de séjour (3 jours) :"
-  example_day0: "Jour arrivé : Arrivé à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
-  example_day1: "Jour 1 : Visiter la ville historique et sa cité des Arts et des
-Sciences :"
-  example_day2: "Jour 2 : Le samedi matin, récupérez votre voiture de location et résidez à l’hôtel Mont Sant pour la nuit du mariage."
-  example_day3: "Jour 3 : Le dimanche, visitez le château de Xàtiva et ces monuments historiques:"
-  prepare_trip: "prépare ton voyage (site internet)"
+  text_tourism: "La nostra terra"
+  example_tourism: ""
+  example_day0: ""
+  example_day1: ""
+  example_day2: ""
+  example_day3: ""
+  prepare_trip: ""
 
   countdown: "Ens casem en"
   week: "sem : "
@@ -57,7 +56,7 @@ Sciences :"
   lat_montsant: "40.395718"
   long_montsant: "-3.794666"
   advice_montsant: “El còctel commençarà a les 20h30. ”
-  church_monsant: "La distància entre l'església i l'hotel és de 30 minuts en cotxe. A l'hotel hi ha un parking a la votra disposició."
+  church_monsant: "La distància entre l'església i l'hotel és de 30 minuts en cotxe. A l'hotel hi ha un pàrquing a la votra disposició."
   church_monsant_name: " Trajecte en cotxe Església - Hotel "
 
   #invited_page
@@ -68,11 +67,12 @@ Sciences :"
   nationality: "Nacionalitat"
 
   #simple_form
-  sf_first_name: "Nom:"
+  sf_first_name: "Nom"
   sf_last_name: "Cognom"
   sf_phone_number: "Telèfon"
   sf_description: "Descriu-te ràpidament"
-  sf_photo_avatar: "Foto"
+  sf_email: "Correu electrònic"
+  sf_photo_avatar: "Foto de perfil"
   sf_name_music: "Nom de la cançó"
   sf_youtube_link: "Link Youtube"
 
@@ -93,14 +93,14 @@ Sciences :"
   contact_mum_jeremy: "Roseline Edmond"
   contact_mum_jeremy_telephone: "+596 696 25 86 05"
   send_information: "enviar un missatge"
-  new_information_title: "escriu la teua pregunta "
+  new_information_title: "Escriu la teua pregunta "
 
 
   #welcome_user_email
   subject_welcome: "Benvinguts a la pàgina web Blanca-Jeremy"
-  welcome_message1: "Benvingut! L'inscripció s'ha efectuat correctament. A la nostra pàgina podràs trobar tot el que necessites i si tens alguna pregunta no dubtes en contactar-nosNous te confirmons que tu viens de faire la plus belle chose de ta vie, tu t’es inscrit sur notre site du mariage ;)."
+  welcome_message1: "Benvingut! L'inscripció s'ha efectuat correctament. A la nostra pàgina podràs trobar tot el que necessites, si tens alguna pregunta no dubtes en contactar-nos."
   welcome_message2: "No t'oblides de completar el teu perfil"
-  welcome_message3:
+  welcome_message3: ""
   welcome_message4: "Un abraç ben fort,"
   signature_email: "Blanca i Jérémy"
   signature_email2: "T   06 99 11 73 95 /06 44 23 49 13"
@@ -108,22 +108,25 @@ Sciences :"
 
   #picture_page
   gallery_title: "Galeria"
-  gallery_text: "Visualisez et ajoutez des photos "
-  new_picture: "Ajoute des photos que tu as de nous"
+  gallery_text: "Visualitza i afegeix fotos"
+  new_picture: "Afegeix les teues fotos"
+  number_picture: "Un màxim de 10 fotos al mateix temps"
   all_picture: "Totes les fotos"
   add_new_picture: "Afegir fotos"
+  sf_name_picture: "Títol de l'imatge"
+  sf_picture_name: "Puja les teues fotos ací"
 
   #transport_page
   transport_title: "Transport"
-  depart: "Arrivada"
+  depart: "Anada"
   return: "Tornada"
-  place: "llocs"
-  transport_message: "Informació compartir cotxe"
-  add_transport: "Proposar compartir cotxe"
+  place: "Llocs"
+  transport_message: "Informació per a compartir cotxe"
+  add_transport: "Proposar compartir un cotxe"
   modify_transport: "Mofificar"
   all_transport: "Compartir el cotxe"
   contact_details: "Les meues coordenades"
-  type_transport: "Voiture, Car, trotinette"
+  type_transport: "Tipus de vehicle"
   new_transport: "Escriu el teu anunci per a compartir cotxe"
   my_transport: "Les meues ofertes per a compartir"
   validate: "Validar"
@@ -132,11 +135,22 @@ Sciences :"
   #present_page
   present_title: "Lluna de mel"
   present_home: "Ens agradaria viatjar"
-  Iban: ""
-  present_text: "Hem viatjat molt, però majoritàriament per a poder vorens. El nostre objectiu es viatjar i descobrir nous paisos junts"
+  Iban: " Banc Cajamar  IBAN: ES31 3058 7117 1328 2000 3957"
+  present_text: "Hem viatjat molt, però majoritàriament per a poder vorens. El nostre objectiu ara és viatjar i descobrir nous paisos junts. Per a la nostra lluna de mel ens agradaria visitar el Japó. Si desitges cooperar en el nostre viatge, ací et deixem les coordenades:"
 
   #sf_information
-  sf_information_subject: "Sujet"
-  sf_information_message: "Message"
+  sf_information_subject: "Assumpte"
+  sf_information_message: "Missatge"
+  confimation_message1: "Hem rebut el teu missatge. Et contestarem el més prompte possible.  "
+  hello: "Hola"
+  login: "Connexió"
+  log_out: "Desconnexió"
+  profile: "Perfil"
+  sign_up: "Registrat"
+  Forgot_your_password?: "Has oblidat la contrasenya?"
+  password: "Contrasenya"
+  remember_me: "Mantindre la sessió iniciada"
+  password_confirmation: "Confirma la teua contrasenya"
+
 
 

@@ -5,13 +5,14 @@
   <br>
 </div>
 <h1 class="text-center" ><%= t('new_picture') %></h1>
+<h6 class="text-center" ><%= t('number_picture') %> </h6>
 <br>
 <br>
 <div class="container" style="width: 70%; font-family: Quicksand; font-weight: lighter;">
   <div class="row">
     <%= simple_form_for [@picture] do |f| %>
-    <%= f.input :picture_name %>
-    <%= f.input :photos, as: :attachinary %>
+    <%= f.input :picture_name ,label: t('sf_name_picture')%>
+    <%= f.input :photos, as: :attachinary,label: t('sf_picture_name') %>
     <br>
     <br>
     <br class="text-center">
