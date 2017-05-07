@@ -9,7 +9,7 @@ class UserMailer < ApplicationMailer
     @user = user
     @greeting = "Hi"
 
-    mail(to: @user.email, subject: 'Welcome to Blanca and Jeremy wedding ')
+    mail(to: @user.email, subject: 'Welcome to our website ')
   end
 
   # Subject can be set in your I18n file at config/locales/en.yml
@@ -17,10 +17,4 @@ class UserMailer < ApplicationMailer
   #
   #   en.user_mailer.message_info.subject
   #
-  def message_info
-    @greeting = "Hi"
-    @user = user
-
-    mail(to: @user.email, subject: 'Welcome to Blanca and Jeremy wedding')
-  end
 end
