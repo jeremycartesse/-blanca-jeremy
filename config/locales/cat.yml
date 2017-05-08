@@ -121,6 +121,7 @@ cat:
   add_new_picture: "Afegir fotos"
   sf_name_picture: "Títol de l'imatge"
   sf_picture_name: "Puja les teues fotos ací"
+  display_picture: "Fes click sobre la foto per a agrandir-la"
 
   #transport_page
   transport_title: "Transport"

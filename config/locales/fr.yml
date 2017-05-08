@@ -122,6 +122,7 @@ Sciences :"
   add_new_picture: "Ajouter une photo"
   sf_name_picture: "Donner un titre aux photos"
   sf_picture_name: "Télécharger vos photos ici"
+  display_picture: "Cliquer sur les photos pour les agrandir"
 
   #transport_page
   transport_title: "Transport"
