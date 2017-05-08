@@ -3,7 +3,7 @@ fr:
   date_wedding: "22 juillet 2017"
   title_ceremony: "Information mariage"
   text_ceremomy: " Toutes les informations"
-  annonce_title: "Bienvenue sur notre site de mariage, vous trouverez tous les renseignements nécessaires pour organiser votre venue. Il suffit juste de vous inscrire. Bonne navigation. "
+  annonce_title: "Bienvenue sur le site dédié à notre mariage, vous trouverez tous les renseignements nécessaires pour organiser votre venue. Il suffit juste de vous inscrire. Bonne navigation. "
 
   #footer
   enquire: "Renseignements"
@@ -25,7 +25,7 @@ fr:
   title_tourism: "Tourisme"
   text_tourism: "Nous avons rassemblé quelques idées et choses à faire dans la région, n'hesitez pas à le consulter pour mieux préparer votre escapade en Espagne"
   example_tourism: "Exemple de séjour (3 jours) :"
-  example_day0: "Jour arrivé : Arrivé à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
+  example_day0: "Jour arrivé : Arrivée à l’aéroport, prenez le métro pour aller au centre de ville et rejoignez votre hôtel."
   example_day1: "Jour 1 : Visiter la ville historique et sa cité des Arts et des
 Sciences :"
   example_day2: "Jour 2 : Le samedi matin, récupérez votre voiture de location et résidez à l’hôtel Mont Sant pour la nuit du mariage."
@@ -47,7 +47,7 @@ Sciences :"
 
   comfirm_delete: "Êtes-vous sûre de vouloir supprimer?"
 
-  #wedding page
+  #wedding_page
   church_name: "Iglesia de San Vicente Mártir"
   church_address: "Calle Mayor,s/n, 46610 Guadassuar, Valencia, Espagne"
   church_time: "Prévu pour 18h30"
@@ -59,11 +59,11 @@ Sciences :"
   longitude_name: "  Longitude"
   lat_church: "39.1856229"
   long_church:  " -0.47822"
-  advice_church: “La cérémonie commencera pour 18h30 , il est préférable d’arriver 15 minutes avant pour le placement de la famille et les amis.”
+  advice_church: “La cérémonie commencera pour 18h30 , il est préférable d’arriver 15 minutes avant pour le placement de la famille et des amis.”
   lat_montsant: "40.395718"
   long_montsant: "-3.794666"
-  advice_montsant: “Le cocktail commencera à 20h30, Venez tôt pour profiter du couché du soleil et de chaque instant avec nous. ”
-  church_monsant: "Il faut compter environ 30 minutes en voiture entre l’église et l’hôtel. Un grand parking sera mise à votre disposition."
+  advice_montsant: “Le cocktail commencera à 20h30, Venez tôt pour profiter du couché du soleil et de chaques instants avec nous. ”
+  church_monsant: "Il faut compter environ 30 minutes en voiture entre l’église et l’hôtel. Un grand parking sera mis à votre disposition."
   church_monsant_name: " Trajet en voiture Église - Hôtel "
 
   #invited_page
@@ -126,7 +126,7 @@ Sciences :"
 
   #transport_page
   transport_title: "Transport"
-  depart: "Arrivé"
+  depart: "Arrivée"
   return: "Retour"
   place: "places"
   transport_message: "Info covoiturage"
@@ -144,7 +144,7 @@ Sciences :"
   present_title: "Cadeaux"
   present_home: "Ce que nous rêvons de faire"
   Iban: ""
-  present_text: "Nous avons beaucoup voyager, mais seulement dans nos villes respectives pour pouvoir se retrouver. Maintenant que nous vivons ensemble, nous voulons voyager ensemble (pour une fois) pour découvrir de nouveaux pays. On souhaiterait partir au Japon pour notre lune de miel, N'hesitez pas à nous aider à réaliser ce futur beau voyage qui sera le départ de notre nouvelle vie de jeunes mariés."
+  present_text: "Nous avons beaucoup voyager, mais seulement dans nos villes respectives pour pouvoir se retrouver. Maintenant que nous vivons ensemble, nous voulons voyager tous les deux (pour une fois) pour découvrir de nouveaux pays. On souhaiterait partir au Japon pour notre lune de miel, N'hesitez pas à nous aider à réaliser ce futur beau voyage qui sera le départ de notre nouvelle vie de jeunes mariés."
 
   #sf_information
   sf_information_subject: "Sujet"
