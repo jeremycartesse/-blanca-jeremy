@@ -23,7 +23,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4" style="margin-bottom: 30px;">
                       <div class="card" data-src="<%= photo.fullpath %>" style="width: 250px; height: 250px;">
                         <div class="crop cropim " >
-                          <%= cl_image_tag photo.path, :style =>" width: 250px; height: 250px;"%>
+                          <%= cl_image_tag photo.path, :width => 250, :height => 250, :crop => :fill %>
                         </div>
                         <div class="bottom-card">
                           <div class="name_user-white_2">
