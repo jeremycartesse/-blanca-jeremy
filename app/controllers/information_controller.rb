@@ -20,6 +20,6 @@ class InformationController < ApplicationController
   private
 
   def information_params
-    params.require(:information).permit(:subject, :message, :type_message)
+    params.require(:information).permit(:subjet, :message, :type_message)
   end
 end
