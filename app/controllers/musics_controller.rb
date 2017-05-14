@@ -1,6 +1,6 @@
 class MusicsController < ApplicationController
   def index
-    @musics = Music.all
+    @musics = Music.includes(:user).all
   end
 
   def show
