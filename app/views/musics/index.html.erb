@@ -32,7 +32,8 @@
                         </div>
                         <div class="card-avatar">
                           <% if music.user.photo_avatar.present? %>
-                              <%= cl_image_tag music.user.photo_avatar.path,:style =>" width: 100% " %>
+                              <%= cl_image_tag music.user.photo_avatar.path,:width => 150, :height => 150,
+             :crop => :fill, :gravity => :faces %>
                             <% end %>
                         </div>
                       </div>
