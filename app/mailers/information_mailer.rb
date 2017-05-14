@@ -10,7 +10,7 @@ class InformationMailer < ApplicationMailer
 
     mail(
       to:       "info@blanca-jeremy.com",
-      subject:  "information"
+      subject:  @information.subjet
     )
   end
 
