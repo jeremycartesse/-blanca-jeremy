@@ -17,6 +17,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'rails-i18n'
+gem 'postmark-rails'
 
 
 gem 'cloudinary', '1.1.7'
